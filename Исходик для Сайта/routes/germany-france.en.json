@@ -1,0 +1,626 @@
+{
+  "route": {
+    "from": "Germany",
+    "to": "France",
+    "from_local": "Germany",
+    "to_local": "France",
+    "from_local_where": "Germany",
+    "to_local_where": "France",
+    "slug": "germany-france",
+    "direction": "de-fr"
+  },
+  "lang": "en",
+  "seo": {
+    "title": "Personal Belongings Shipping Germany to France | Intrelo",
+    "description": "Moving from Germany to France in 1–3 days. Shared border, no customs within the EU. Direct road transport, door-to-door delivery.",
+    "h1_line1": "Personal Belongings Shipping",
+    "h1_line2": "from Germany to France",
+    "canonical": "/international-moving/germany-france/",
+    "hreflang": {
+      "ru": "/international-moving/germany-france/",
+      "en": "/en/international-moving/germany-france/",
+      "de": "/de/international-moving/germany-france/",
+      "x-default": "/international-moving/germany-france/"
+    },
+    "og": {
+      "title": "Moving from Germany to France — 1–3 Days Direct",
+      "description": "Shared border. Direct delivery, no customs. Door-to-door service.",
+      "image": "/assets/og/germany-france.jpg",
+      "type": "website",
+      "locale": "en_GB"
+    },
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "International Moving",
+        "url": "/international-moving/"
+      },
+      {
+        "name": "Germany → France",
+        "url": "/international-moving/germany-france/"
+      }
+    ],
+    "lsi_keywords": [
+      "moving from germany to france",
+      "shipping household goods germany france",
+      "international relocation france",
+      "moving to paris from germany",
+      "removal company germany to france",
+      "moving to france cost from germany"
+    ]
+  },
+  "hero": {
+    "subtitle": "We were the official carrier of the Queen of Britain. The fastest European route — 1–3 days by road. Shared border, no customs within the EU. Direct delivery door to door. Bilingual DE/FR team. Strasbourg in 2 hours from the border, Paris in 6.",
+    "cta": "Get a free moving quote",
+    "slides": [
+      {
+        "src": "assets/hero/hero-warehouse.jpg",
+        "alt": "Warehouse"
+      },
+      {
+        "src": "assets/hero/hero-moving.jpg",
+        "alt": "Moving to France"
+      },
+      {
+        "src": "assets/hero/hero-packing.jpg",
+        "alt": "Packing"
+      }
+    ]
+  },
+  "process": {
+    "title": "How your move to France works",
+    "subtitle": "Shared border, single EU space. Direct delivery in 1–3 days. No customs, no reloadings. The simplest international route.",
+    "cards": [
+      {
+        "title": "Preparation in Germany",
+        "items": [
+          {
+            "icon": "assets/process/consultation-whatsapp.png",
+            "text": "Consultation — photos/video via WhatsApp. Free on-site survey anywhere in Germany."
+          },
+          {
+            "icon": "assets/process/packing.jpg",
+            "text": "On-site packing — compact boxes for Parisian lifts. Haussmann buildings have narrow entrances."
+          },
+          {
+            "icon": "assets/process/warehouse.jpg",
+            "text": "Same-day loading in border cities. Consolidation warehouse for larger volumes."
+          }
+        ]
+      },
+      {
+        "title": "Direct transport",
+        "items": [
+          {
+            "icon": "assets/process/export-customs.jpg",
+            "text": "No customs within the EU — free movement. CMR and transport documents only."
+          },
+          {
+            "icon": "assets/process/transport.jpg",
+            "text": "Strasbourg — 2 hrs from border. Paris — 6 hrs. Lyon — 7 hrs. Nice — 10 hrs. Direct, no stops."
+          },
+          {
+            "icon": "assets/process/import-customs.jpg",
+            "text": "No reloading — one vehicle, one driver, straight to your door in France."
+          }
+        ]
+      },
+      {
+        "title": "Delivery in France",
+        "items": [
+          {
+            "icon": "assets/process/delivery.jpg",
+            "text": "Paris, Lyon, Marseille, Nice, Bordeaux, Toulouse, Strasbourg, Corsica — anywhere in France."
+          },
+          {
+            "icon": "assets/cargo/furniture.jpg",
+            "text": "Paris specifics — Haussmann buildings: narrow lifts, mansard floors, 6th floor walk-ups. External hoist available."
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Unpacking, placement, furniture assembly. Packaging removal included."
+          }
+        ]
+      }
+    ]
+  },
+  "cargo": {
+    "title": "What we ship from Germany to France",
+    "subtitle": "Any personal belongings — fastest EU route with compact packing for Parisian apartments",
+    "items": [
+      {
+        "icon": "assets/cargo/clothes.jpg",
+        "title": "Clothing & shoes"
+      },
+      {
+        "icon": "assets/cargo/dishes.jpg",
+        "title": "Dishes & glassware"
+      },
+      {
+        "icon": "assets/cargo/furniture.jpg",
+        "title": "Furniture"
+      },
+      {
+        "icon": "assets/cargo/appliances.jpg",
+        "title": "Appliances"
+      },
+      {
+        "icon": "assets/cargo/documents.jpg",
+        "title": "Documents"
+      },
+      {
+        "icon": "assets/cargo/music.jpg",
+        "title": "Musical instruments"
+      },
+      {
+        "icon": "assets/cargo/art.jpg",
+        "title": "Art & paintings"
+      },
+      {
+        "icon": "assets/cargo/collections.jpg",
+        "title": "Collections"
+      },
+      {
+        "icon": "assets/cargo/books.jpg",
+        "title": "Books"
+      },
+      {
+        "icon": "assets/cargo/decor.jpg",
+        "title": "Home décor"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our services: Germany → France",
+    "subtitle": "The fastest EU moving route — shared border, 1–3 days, bilingual DE/FR support",
+    "cards": [
+      {
+        "icon": "home",
+        "title": "Door-to-door in 1–3 days",
+        "text": "Direct delivery from any German city to any French city. Shared border — the fastest EU route.",
+        "link": "#"
+      },
+      {
+        "icon": "document",
+        "title": "Bilingual support DE/FR",
+        "text": "All documents in German and French. Guidance on French administrative procedures.",
+        "link": "#"
+      },
+      {
+        "icon": "box",
+        "title": "Packing for Parisian lifts",
+        "text": "Compact boxes for Haussmann lifts. Dismantling of oversized furniture. Adapted for mansard ceilings.",
+        "link": "#"
+      },
+      {
+        "icon": "shield",
+        "title": "Cargo insurance",
+        "text": "Full coverage door to door. Short direct route — minimal risk.",
+        "link": "#"
+      },
+      {
+        "icon": "storage",
+        "title": "Storage",
+        "text": "Warehouses on both sides of the border. Short-term during apartment search.",
+        "link": "#"
+      },
+      {
+        "icon": "special",
+        "title": "Specialty items",
+        "text": "Art, antiques, wine. Premium packing for gallery-standard items.",
+        "link": "#"
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Why choose us for moving to France",
+    "subtitle": "Shared border — the fastest and most affordable EU move",
+    "cards": [
+      {
+        "title": "1–3 days delivery",
+        "text": "Strasbourg in 2 hours from the border. Paris in 6 hours. The shortest international moving route in Europe."
+      },
+      {
+        "title": "No customs",
+        "text": "Germany and France are EU founding members. Zero duties, zero declarations. Transport documents only."
+      },
+      {
+        "title": "Bilingual DE/FR team",
+        "text": "Native German and French speakers. All documentation in both languages."
+      },
+      {
+        "title": "Paris expertise",
+        "text": "Haussmann buildings, narrow lifts, mansard floors. We know how to deliver to 6th floor with no lift."
+      },
+      {
+        "title": "Most affordable EU route",
+        "text": "Short distance = lower cost. From ~€280/m³ by road. One-bedroom flat from €2,800."
+      },
+      {
+        "title": "Same-day for border regions",
+        "text": "Saarbrücken → Strasbourg: 1.5 hours. Freiburg → Mulhouse: 1 hour. Same-day delivery possible."
+      }
+    ]
+  },
+  "audience": {
+    "title": "Who we help move to France",
+    "subtitle": "From border-region commuters to Paris relocations and Côte d'Azur dreamers.",
+    "groups": [
+      {
+        "title": "Private individuals:",
+        "cards": [
+          {
+            "title": "Families relocating",
+            "description": "Full house move to Paris, Lyon, south of France. Haussmann-adapted delivery.",
+            "image": "assets/audience/family.jpg"
+          },
+          {
+            "title": "Cross-border workers",
+            "description": "Saarland → Alsace, Baden → Mulhouse. Same-day compact moves.",
+            "image": "assets/audience/student.jpg"
+          },
+          {
+            "title": "Retirees to Provence",
+            "description": "Furnishing your French home. Full house from Germany to south of France.",
+            "image": "assets/audience/immigrant.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Corporate clients:",
+        "cards": [
+          {
+            "title": "Relocation companies",
+            "description": "Corporate rates, SLA, bilingual invoicing.",
+            "image": "assets/audience/relocation.jpg"
+          },
+          {
+            "title": "Company employees",
+            "description": "Relocating to French office. Paris, Lyon, Toulouse.",
+            "image": "assets/audience/employee.jpg"
+          },
+          {
+            "title": "EU institutions",
+            "description": "Strasbourg, Brussels corridor. Diplomatic-grade service.",
+            "image": "assets/audience/diplomatic.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Special services:",
+        "cards": [
+          {
+            "title": "Art & antique collectors",
+            "description": "Gallery-standard packing. Paris auction houses.",
+            "image": "assets/audience/vip.jpg"
+          },
+          {
+            "title": "Wine collectors",
+            "description": "Temperature-controlled transport from German to French cellar.",
+            "image": "assets/audience/collector.jpg"
+          },
+          {
+            "title": "Concierge services",
+            "description": "16th arrondissement, Saint-Germain, Côte d'Azur villas.",
+            "image": "assets/audience/concierge.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "packing": {
+    "title": "Packing for your move to France",
+    "subtitle": "Short direct route — standard EU packing. Special focus on compact boxes for Parisian lifts and Haussmann building constraints.",
+    "cards": [
+      {
+        "title": "Soft packing",
+        "items": [
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Acid-free paper for delicate items"
+          },
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Bubble wrap for glass and fragile items"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "PE foam for corners and edges"
+          }
+        ]
+      },
+      {
+        "title": "Compact boxes",
+        "items": [
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Compact boxes for Parisian lifts (max 60×40×40 cm for Haussmann buildings)"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Wardrobe boxes — may need to go in pieces through narrow doors"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Book boxes — small and heavy-duty for Parisian walk-ups"
+          }
+        ]
+      },
+      {
+        "title": "Furniture prep",
+        "items": [
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Dismantling oversized furniture for narrow Haussmann staircases"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Blanket wrapping for sofas and wardrobes"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Corner protectors for tight hallways and doorframes"
+          }
+        ]
+      },
+      {
+        "title": "Clothing",
+        "items": [
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Garment bags for suits and delicate items"
+          },
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Vacuum bags for winter items"
+          },
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Individual shoe packing"
+          }
+        ]
+      },
+      {
+        "title": "Electronics",
+        "items": [
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Anti-static film for laptops and monitors"
+          },
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Original boxes or custom crating"
+          },
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Foam inserts for secure transit"
+          }
+        ]
+      },
+      {
+        "title": "Fragile items",
+        "items": [
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Multi-layer dish packing with dividers"
+          },
+          {
+            "icon": "assets/cargo/art.jpg",
+            "text": "Custom art crating — gallery standard"
+          },
+          {
+            "icon": "assets/cargo/collections.jpg",
+            "text": "Foam inserts for figurines and décor"
+          }
+        ]
+      }
+    ]
+  },
+  "transport": {
+    "title": "Shipping methods: Germany to France",
+    "subtitle": "Shared border — road is the primary and fastest method. Sea for Corsica and large volumes.",
+    "cards": [
+      {
+        "title": "Road transport",
+        "items": [
+          {
+            "icon": "assets/3d-icons/auto_microbus.png",
+            "text": "Sprinter — studio flat, 1–3 days"
+          },
+          {
+            "icon": "assets/3d-icons/auto_eurotruck.png",
+            "text": "Euro truck — full house, 1–3 days"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Consolidated — from 1 m³, weekly"
+          }
+        ]
+      },
+      {
+        "title": "Sea freight",
+        "items": [
+          {
+            "icon": "assets/3d-icons/shipping_20ft.png",
+            "text": "Hamburg → Marseille/Le Havre — 20 ft"
+          },
+          {
+            "icon": "assets/3d-icons/shipping_40ft.png",
+            "text": "40 ft container — very large volumes"
+          },
+          {
+            "icon": "assets/3d-icons/marine_lcl.png",
+            "text": "Consolidated sea — from 1 m³"
+          }
+        ]
+      },
+      {
+        "title": "Air freight",
+        "items": [
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Frankfurt → Paris CDG — same day"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Urgent document delivery"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Consolidated air — from 20 kg"
+          }
+        ]
+      },
+      {
+        "title": "Corsica & overseas",
+        "items": [
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Road + ferry — Marseille → Corsica"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Nice → Corsica (shorter crossing)"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Air — for urgent island deliveries"
+          }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Shipping comparison: Germany → France",
+    "subtitle": "Shortest EU route — lowest costs. No customs duties.",
+    "features_labels": [
+      "Typical volume",
+      "Transit time",
+      "Indicative cost *",
+      "Best for",
+      "Main risks",
+      "How we mitigate"
+    ],
+    "plans": [
+      {
+        "name": "Road",
+        "icon": "truck",
+        "dark": false,
+        "values": [
+          "1–33 m³",
+          "1–3 days",
+          "from ~€280/m³",
+          "Any standard move",
+          "Parisian access restrictions",
+          "Pre-arranged parking, Haussmann expertise"
+        ]
+      },
+      {
+        "name": "Sea",
+        "icon": "ship",
+        "dark": false,
+        "values": [
+          "5–60+ m³",
+          "7–14 days",
+          "from ~€150/m³",
+          "Large volumes",
+          "Port delays",
+          "Scheduling + moisture protection"
+        ]
+      },
+      {
+        "name": "Air",
+        "icon": "plane",
+        "dark": true,
+        "values": [
+          "0.5–5 m³",
+          "Same day – 1 day",
+          "from ~€750/m³",
+          "Urgent items",
+          "Weight/size limits",
+          "Professional compact packing"
+        ]
+      },
+      {
+        "name": "Corsica",
+        "icon": "globe",
+        "dark": false,
+        "values": [
+          "1–33 m³",
+          "3–7 days",
+          "from ~€350/m³",
+          "Corsica island",
+          "Ferry schedule, sea conditions",
+          "Marine packing + pre-booked ferry"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ: Moving from Germany to France",
+    "subtitle": "Everything about the fastest EU moving route",
+    "items": [
+      {
+        "q": "Is customs clearance needed?",
+        "a": "No. Both EU founding members. Free movement of goods. Only CMR transport documents."
+      },
+      {
+        "q": "How long does the move take?",
+        "a": "1–3 days by road. Strasbourg: 2 hours from border. Paris: 6 hours. Nice: 10 hours. Corsica: add 1–3 days."
+      },
+      {
+        "q": "Can you handle Parisian Haussmann buildings?",
+        "a": "Yes. Compact boxes for narrow lifts, furniture dismantling for tight staircases, external hoists for upper floors. We do this regularly."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "Road from ~€280/m³. One-bedroom (~10 m³) — from €2,800. The most affordable EU international move."
+      },
+      {
+        "q": "Do you deliver to Corsica?",
+        "a": "Yes. Road to Marseille or Nice, then ferry. Total: 3–7 days. Door delivery on the island."
+      },
+      {
+        "q": "What about same-day delivery?",
+        "a": "Possible for border regions: Saarbrücken → Strasbourg, Freiburg → Mulhouse. Contact us for availability."
+      },
+      {
+        "q": "Do you speak French?",
+        "a": "Yes. Bilingual DE/FR team. All documents in both languages."
+      },
+      {
+        "q": "Any taxes when moving to France?",
+        "a": "Personal belongings within the EU — no taxes, no duties. French residency registration may be needed."
+      },
+      {
+        "q": "How do I track my shipment?",
+        "a": "GPS tracking. Status updates at every stage. 24/7 WhatsApp contact."
+      },
+      {
+        "q": "Can I ship a piano?",
+        "a": "Yes. Specialist piano moving with climate protection and vibration damping."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to move\nfrom Germany to France?",
+    "subtitle": "Free calculation — fastest EU route, 1–3 days door to door.",
+    "benefits": [
+      "Free quote in 30 minutes",
+      "1–3 days direct delivery",
+      "No customs, no duties",
+      "Bilingual DE/FR team"
+    ],
+    "form_title": "Get a moving quote",
+    "form_route_placeholder": "Frankfurt → Paris"
+  },
+  "footer": {
+    "phone": "+7 (495) 480-48-48",
+    "email": "order@perevozki-veshey.ru",
+    "address": "Moscow, Begovaya st., 3",
+    "copyright": "InterCargo. All rights reserved."
+  }
+}
