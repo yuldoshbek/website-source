@@ -1,0 +1,627 @@
+{
+  "route": {
+    "from": "Germany",
+    "to": "United Kingdom",
+    "from_local": "Germany",
+    "to_local": "the UK",
+    "from_local_where": "Germany",
+    "to_local_where": "the United Kingdom",
+    "slug": "germany-uk",
+    "direction": "de-uk"
+  },
+  "lang": "en",
+  "seo": {
+    "title": "Personal Belongings Shipping Germany to UK | Intrelo",
+    "description": "Moving from Germany to UK post-Brexit. Full customs clearance DE→UK, Transfer of Residence relief. Channel Tunnel, door-to-door.",
+    "h1_line1": "Personal Belongings Shipping",
+    "h1_line2": "from Germany to the UK",
+    "canonical": "/international-moving/germany-uk/",
+    "hreflang": {
+      "ru": "/international-moving/germany-uk/",
+      "en": "/en/international-moving/germany-uk/",
+      "de": "/de/international-moving/germany-uk/",
+      "x-default": "/international-moving/germany-uk/"
+    },
+    "og": {
+      "title": "Moving from Germany to UK — Post-Brexit, Door-to-Door",
+      "description": "Full customs clearance, Transfer of Residence relief. Channel Tunnel or ferry.",
+      "image": "/assets/og/germany-uk.jpg",
+      "type": "website",
+      "locale": "en_GB"
+    },
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "International Moving",
+        "url": "/international-moving/"
+      },
+      {
+        "name": "Germany → United Kingdom",
+        "url": "/international-moving/germany-uk/"
+      }
+    ],
+    "lsi_keywords": [
+      "moving from germany to uk",
+      "shipping personal belongings germany uk",
+      "international relocation uk post brexit",
+      "transfer of residence uk moving",
+      "customs clearance germany uk",
+      "removal company germany to uk",
+      "moving to london from germany"
+    ]
+  },
+  "hero": {
+    "subtitle": "We were the official carrier of the Queen of Britain. Post-Brexit moving with full customs clearance on both sides. Channel Tunnel (35 min) or ferry. Door-to-door in 5–8 days. Transfer of Residence duty relief for permanent relocations.",
+    "cta": "Get a free moving quote",
+    "slides": [
+      {
+        "src": "assets/hero/hero-warehouse.jpg",
+        "alt": "Warehouse"
+      },
+      {
+        "src": "assets/hero/hero-moving.jpg",
+        "alt": "Moving to UK"
+      },
+      {
+        "src": "assets/hero/hero-packing.jpg",
+        "alt": "Packing for customs"
+      }
+    ]
+  },
+  "process": {
+    "title": "How your move to the UK works",
+    "subtitle": "Since Brexit, full customs clearance is required on both sides — EU export and UK import. Channel crossing via Eurotunnel or ferry.",
+    "cards": [
+      {
+        "title": "Preparation in Germany",
+        "items": [
+          {
+            "icon": "assets/process/consultation-whatsapp.png",
+            "text": "Consultation — volume assessment, inventory preparation for EU customs and UK Border Force."
+          },
+          {
+            "icon": "assets/process/packing.jpg",
+            "text": "Packing with EN labelling — numbered items for customs inspection. UK Border Force may open any box."
+          },
+          {
+            "icon": "assets/process/warehouse.jpg",
+            "text": "Export documentation — Ausfuhranmeldung preparation and HMRC inventory."
+          }
+        ]
+      },
+      {
+        "title": "Customs & Channel crossing",
+        "items": [
+          {
+            "icon": "assets/process/export-customs.jpg",
+            "text": "EU export — Ausfuhranmeldung. Filed in Germany before departure."
+          },
+          {
+            "icon": "assets/process/transport.jpg",
+            "text": "Channel Tunnel (35 min) or Dover–Calais ferry (90 min). We choose the optimal option."
+          },
+          {
+            "icon": "assets/process/import-customs.jpg",
+            "text": "UK import — Transfer of Residence (ToR) relief. Duty-free import for permanent relocations."
+          }
+        ]
+      },
+      {
+        "title": "Delivery in the UK",
+        "items": [
+          {
+            "icon": "assets/process/delivery.jpg",
+            "text": "London, Manchester, Birmingham, Edinburgh, Cardiff — any UK address."
+          },
+          {
+            "icon": "assets/cargo/furniture.jpg",
+            "text": "UK building expertise — Victorian terraces, narrow staircases, bay windows. No challenge too tricky."
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Unpacking, assembly, placement. Packaging removal included."
+          }
+        ]
+      }
+    ]
+  },
+  "cargo": {
+    "title": "What we ship from Germany to the UK",
+    "subtitle": "Full relocation with post-Brexit customs — from clothing to antiques",
+    "items": [
+      {
+        "icon": "assets/cargo/clothes.jpg",
+        "title": "Clothing & shoes"
+      },
+      {
+        "icon": "assets/cargo/dishes.jpg",
+        "title": "Dishes & glassware"
+      },
+      {
+        "icon": "assets/cargo/furniture.jpg",
+        "title": "Furniture"
+      },
+      {
+        "icon": "assets/cargo/appliances.jpg",
+        "title": "Appliances"
+      },
+      {
+        "icon": "assets/cargo/documents.jpg",
+        "title": "Documents"
+      },
+      {
+        "icon": "assets/cargo/music.jpg",
+        "title": "Musical instruments"
+      },
+      {
+        "icon": "assets/cargo/art.jpg",
+        "title": "Art & paintings"
+      },
+      {
+        "icon": "assets/cargo/collections.jpg",
+        "title": "Collections"
+      },
+      {
+        "icon": "assets/cargo/books.jpg",
+        "title": "Books"
+      },
+      {
+        "icon": "assets/cargo/decor.jpg",
+        "title": "Home décor"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our services: Germany → UK",
+    "subtitle": "Post-Brexit expertise — EU export, UK import, Transfer of Residence relief",
+    "cards": [
+      {
+        "icon": "home",
+        "title": "Door-to-door via the Channel",
+        "text": "Full move in 5–8 days. Eurotunnel or ferry. Both customs clearances included.",
+        "link": "#"
+      },
+      {
+        "icon": "document",
+        "title": "Post-Brexit customs DE→UK",
+        "text": "Ausfuhranmeldung + ToR relief. We know HMRC requirements and UK Border Force procedures.",
+        "link": "#"
+      },
+      {
+        "icon": "box",
+        "title": "Packing for inspection",
+        "text": "EN labelling, numbered items, detailed inventory. UK Border Force may inspect any box.",
+        "link": "#"
+      },
+      {
+        "icon": "shield",
+        "title": "Cargo insurance",
+        "text": "100% coverage — Germany, Channel crossing, UK. Including the ferry/tunnel section.",
+        "link": "#"
+      },
+      {
+        "icon": "storage",
+        "title": "Storage",
+        "text": "Warehouses on both sides of the Channel. During customs formalities.",
+        "link": "#"
+      },
+      {
+        "icon": "special",
+        "title": "Specialty items",
+        "text": "Antiques, art — UK import rules, CITES, temporary import provisions.",
+        "link": "#"
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Why choose us for moving to the UK",
+    "subtitle": "Post-Brexit expertise — we handle both EU and UK customs so you don't have to",
+    "cards": [
+      {
+        "title": "Post-Brexit expertise",
+        "text": "Ausfuhranmeldung + ToR relief. We handle everything — no need for a separate customs broker."
+      },
+      {
+        "title": "Transfer of Residence relief",
+        "text": "Duty-free import when relocating permanently. We prepare all HMRC documentation."
+      },
+      {
+        "title": "Channel Tunnel or ferry",
+        "text": "Tunnel: 35 minutes. Overnight ferry: saves a day. We choose the best option for your move."
+      },
+      {
+        "title": "We know British homes",
+        "text": "Victorian terraces, parking suspensions, Congestion Charge zones. We handle all UK-specific logistics."
+      },
+      {
+        "title": "Both customs without delays",
+        "text": "Documents prepared in advance. Cargo clears both customs in one day."
+      },
+      {
+        "title": "GPS tracking across the Channel",
+        "text": "Full tracking throughout, including the crossing."
+      }
+    ]
+  },
+  "audience": {
+    "title": "Who we help move to the UK",
+    "subtitle": "We work with private individuals, corporate clients and those relocating on a UK visa.",
+    "groups": [
+      {
+        "title": "Private individuals:",
+        "cards": [
+          {
+            "title": "Families on permanent relocation",
+            "description": "ToR relief — duty-free import. Full house move.",
+            "image": "assets/audience/family.jpg"
+          },
+          {
+            "title": "UK university students",
+            "description": "Oxford, Cambridge, London. Fast delivery for term start.",
+            "image": "assets/audience/student.jpg"
+          },
+          {
+            "title": "Skilled Worker Visa holders",
+            "description": "HMRC documentation, employer invoicing.",
+            "image": "assets/audience/immigrant.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Corporate clients:",
+        "cards": [
+          {
+            "title": "Relocation companies",
+            "description": "SLA, GBP invoicing, corporate volumes.",
+            "image": "assets/audience/relocation.jpg"
+          },
+          {
+            "title": "Financial services firms",
+            "description": "City of London. Premium service.",
+            "image": "assets/audience/employee.jpg"
+          },
+          {
+            "title": "Diplomatic missions",
+            "description": "Diplomatic baggage provisions.",
+            "image": "assets/audience/diplomatic.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Special services:",
+        "cards": [
+          {
+            "title": "Collectors",
+            "description": "UK import rules. Museum-grade packing.",
+            "image": "assets/audience/vip.jpg"
+          },
+          {
+            "title": "Auction houses",
+            "description": "Christie's, Sotheby's. Lot delivery.",
+            "image": "assets/audience/collector.jpg"
+          },
+          {
+            "title": "Concierge services",
+            "description": "Mayfair, Chelsea, Kensington.",
+            "image": "assets/audience/concierge.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "packing": {
+    "title": "Packing for your move to the UK",
+    "subtitle": "Dual customs inspection — packing with EN labelling, numbered items and re-sealable closures for Border Force.",
+    "cards": [
+      {
+        "title": "Soft packing",
+        "items": [
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Paper and film for delicate items"
+          },
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Re-sealable bubble wrap — for customs re-closure"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "PE foam for corners"
+          }
+        ]
+      },
+      {
+        "title": "Customs-ready boxes",
+        "items": [
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Numbered boxes — matching HMRC inventory"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Wardrobe boxes"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Crates with re-openable fastenings for inspection"
+          }
+        ]
+      },
+      {
+        "title": "Marine protection",
+        "items": [
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Moisture protection for Channel crossing"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Timber bracing for large furniture"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "EN labelling — number, contents, FRAGILE"
+          }
+        ]
+      },
+      {
+        "title": "Clothing",
+        "items": [
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Suit covers"
+          },
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Vacuum bags"
+          },
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Shoe packaging"
+          }
+        ]
+      },
+      {
+        "title": "Electronics",
+        "items": [
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Anti-static film"
+          },
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Custom crating"
+          },
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Securing brackets"
+          }
+        ]
+      },
+      {
+        "title": "Fragile items",
+        "items": [
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Multi-layer dish packing"
+          },
+          {
+            "icon": "assets/cargo/art.jpg",
+            "text": "Picture boxes"
+          },
+          {
+            "icon": "assets/cargo/collections.jpg",
+            "text": "Custom foam inserts"
+          }
+        ]
+      }
+    ]
+  },
+  "transport": {
+    "title": "Shipping methods: Germany to UK",
+    "subtitle": "Across the Channel — Eurotunnel, ferry or by sea. Customs on both sides.",
+    "cards": [
+      {
+        "title": "Road + Eurotunnel",
+        "items": [
+          {
+            "icon": "assets/3d-icons/auto_microbus.png",
+            "text": "Sprinter — 5–7 days"
+          },
+          {
+            "icon": "assets/3d-icons/auto_eurotruck.png",
+            "text": "Euro truck — 5–8 days"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Consolidated — weekly departures"
+          }
+        ]
+      },
+      {
+        "title": "Sea freight",
+        "items": [
+          {
+            "icon": "assets/3d-icons/shipping_20ft.png",
+            "text": "Hamburg → Felixstowe"
+          },
+          {
+            "icon": "assets/3d-icons/shipping_40ft.png",
+            "text": "40 ft — full house"
+          },
+          {
+            "icon": "assets/3d-icons/marine_lcl.png",
+            "text": "Consolidated sea — from 1 m³"
+          }
+        ]
+      },
+      {
+        "title": "Air freight",
+        "items": [
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Frankfurt → Heathrow — 1–2 days"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Urgent delivery"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Consolidated air — from 30 kg"
+          }
+        ]
+      },
+      {
+        "title": "Ferry",
+        "items": [
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Calais → Dover — 90 min"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Rotterdam → Harwich — overnight"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Hook of Holland → Harwich"
+          }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Shipping comparison: Germany → UK",
+    "subtitle": "Post-Brexit — customs clearance required. Cost includes both customs clearances.",
+    "features_labels": [
+      "Typical volume",
+      "Transit time",
+      "Indicative cost *",
+      "Best for",
+      "Main risks",
+      "How we mitigate"
+    ],
+    "plans": [
+      {
+        "name": "Road + Tunnel",
+        "icon": "truck",
+        "dark": false,
+        "values": [
+          "1–33 m³",
+          "5–8 days",
+          "from ~€400/m³",
+          "Standard relocation",
+          "Post-Brexit customs delays",
+          "Pre-clearance documentation"
+        ]
+      },
+      {
+        "name": "Sea",
+        "icon": "ship",
+        "dark": false,
+        "values": [
+          "5–60+ m³",
+          "14–25 days",
+          "from ~€200/m³",
+          "Large volumes",
+          "Port humidity, delays",
+          "Moisture-proof packing, buffer time"
+        ]
+      },
+      {
+        "name": "Air",
+        "icon": "plane",
+        "dark": true,
+        "values": [
+          "0.5–5 m³",
+          "1–2 days",
+          "from ~€850/m³",
+          "Urgent shipments",
+          "Airport inspection",
+          "Pre-screening with broker"
+        ]
+      },
+      {
+        "name": "Ferry",
+        "icon": "globe",
+        "dark": false,
+        "values": [
+          "1–33 m³",
+          "5–10 days",
+          "from ~€380/m³",
+          "Budget option",
+          "Channel weather",
+          "Marine packing, securing"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ: Moving from Germany to the UK",
+    "subtitle": "Everything about post-Brexit moving",
+    "items": [
+      {
+        "q": "Is customs clearance needed after Brexit?",
+        "a": "Yes. The UK has left the EU — export declaration from Germany and import clearance in the UK are both required. We handle everything."
+      },
+      {
+        "q": "What is Transfer of Residence (ToR)?",
+        "a": "HMRC programme for duty-free import of personal belongings when permanently relocating to the UK. Requires 12+ months residence abroad."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "Road + tunnel: from ~€400/m³. One-bedroom (~10 m³) — from €4,000. Includes both customs clearances."
+      },
+      {
+        "q": "How long does delivery take?",
+        "a": "Road: 5–8 days. Sea: 14–25 days. Air: 1–2 days."
+      },
+      {
+        "q": "Do I need a visa for shipping belongings?",
+        "a": "Not for the goods. But ToR relief requires proof of right to reside (visa, settled status)."
+      },
+      {
+        "q": "What about London parking?",
+        "a": "We arrange parking suspension with the local Council. Included in the price."
+      },
+      {
+        "q": "Eurotunnel or ferry?",
+        "a": "Tunnel: 35 min, faster. Ferry: cheaper but 90 min + waiting. We recommend tunnel for most moves."
+      },
+      {
+        "q": "Can I bring food/alcohol?",
+        "a": "Restrictions since Brexit: no commercial quantities, declaration needed. Personal items are fine."
+      },
+      {
+        "q": "How do I track my shipment?",
+        "a": "GPS tracking including the Channel crossing. Notifications at each customs point."
+      },
+      {
+        "q": "Do you serve Scotland and Wales?",
+        "a": "Yes. Edinburgh, Glasgow, Cardiff, Belfast — we deliver across the entire UK."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to move\nto the United Kingdom?",
+    "subtitle": "Free calculation with post-Brexit customs included. 5–8 days door to door.",
+    "benefits": [
+      "Free quote in 30 minutes",
+      "Both customs clearances included",
+      "Transfer of Residence (ToR)",
+      "100% cargo insurance"
+    ],
+    "form_title": "Get a moving quote",
+    "form_route_placeholder": "Berlin → London"
+  },
+  "footer": {
+    "phone": "+7 (495) 480-48-48",
+    "email": "order@perevozki-veshey.ru",
+    "address": "Moscow, Begovaya st., 3",
+    "copyright": "InterCargo. All rights reserved."
+  }
+}
