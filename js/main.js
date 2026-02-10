@@ -399,23 +399,26 @@ function initFaqAccordion() {
     const faqItems = document.querySelectorAll('.faq__item');
 
     faqItems.forEach(item => {
-        const question = item.querySelector('.faq__question');
+        const questionBtn = item.querySelector('.faq__question-btn') || item.querySelector('.faq__question');
         const answer = item.querySelector('.faq__answer');
 
-        if (!question || !answer) return;
+        if (!questionBtn || !answer) return;
 
-        question.addEventListener('click', function() {
+        questionBtn.addEventListener('click', function() {
             const isActive = item.classList.contains('active');
 
             // Close all other items
             faqItems.forEach(otherItem => {
                 if (otherItem !== item) {
                     otherItem.classList.remove('active');
+                    const btn = otherItem.querySelector('.faq__question-btn');
+                    if (btn) btn.setAttribute('aria-expanded', 'false');
                 }
             });
 
             // Toggle current item
             item.classList.toggle('active', !isActive);
+            questionBtn.setAttribute('aria-expanded', String(!isActive));
         });
     });
 }

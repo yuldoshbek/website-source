@@ -1,0 +1,622 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "updated": "2026-02-07",
+    "description": "Каталог городов Intrelo. Управление: enabled=true/false для включения/выключения города. AI-агент читает этот файл и генерирует страницы только для enabled=true.",
+    "usage": {
+      "enable_city": "Поставить enabled: true → город появится на сайте",
+      "disable_city": "Поставить enabled: false → город убирается с сайта",
+      "enable_country": "В объекте страны поставить enabled: true",
+      "disable_country": "В объекте страны поставить enabled: false → ВСЕ города этой страны отключаются"
+    },
+    "total_countries": 45,
+    "total_cities": 380
+  },
+
+  "regions": {
+
+    "western_europe": {
+      "name": { "ru": "Западная Европа", "en": "Western Europe", "de": "Westeuropa" },
+      "countries": {
+
+        "germany": {
+          "enabled": true,
+          "is_anchor": true,
+          "name": { "ru": "Германия", "en": "Germany", "de": "Deutschland" },
+          "slug": { "ru": "germaniya", "en": "germany", "de": "deutschland" },
+          "flag": "🇩🇪",
+          "cities": [
+            { "id": "berlin", "enabled": true, "slug": { "ru": "berlin", "en": "berlin", "de": "berlin" }, "name": { "ru": "Берлин", "en": "Berlin", "de": "Berlin" }, "population": 3748148, "coords": [52.52, 13.405], "local_facts": { "ru": "столица, крупнейший город Германии", "en": "capital, largest city in Germany", "de": "Hauptstadt, größte Stadt Deutschlands" } },
+            { "id": "munich", "enabled": true, "slug": { "ru": "myunkhen", "en": "munich", "de": "muenchen" }, "name": { "ru": "Мюнхен", "en": "Munich", "de": "München" }, "population": 1488202, "coords": [48.135, 11.582], "local_facts": { "ru": "столица Баварии, технологический хаб", "en": "Bavarian capital, tech hub", "de": "Landeshauptstadt Bayerns, Tech-Hub" } },
+            { "id": "hamburg", "enabled": true, "slug": { "ru": "gamburg", "en": "hamburg", "de": "hamburg" }, "name": { "ru": "Гамбург", "en": "Hamburg", "de": "Hamburg" }, "population": 1906411, "coords": [53.551, 9.994], "local_facts": { "ru": "крупнейший порт Германии", "en": "Germany's largest port city", "de": "größter Hafen Deutschlands" } },
+            { "id": "frankfurt", "enabled": true, "slug": { "ru": "frankfurt", "en": "frankfurt", "de": "frankfurt" }, "name": { "ru": "Франкфурт-на-Майне", "en": "Frankfurt", "de": "Frankfurt am Main" }, "population": 764104, "coords": [50.111, 8.682], "local_facts": { "ru": "финансовая столица Европы", "en": "financial capital of Europe", "de": "Finanzhauptstadt Europas" } },
+            { "id": "cologne", "enabled": true, "slug": { "ru": "kyoln", "en": "cologne", "de": "koeln" }, "name": { "ru": "Кёльн", "en": "Cologne", "de": "Köln" }, "population": 1083498, "coords": [50.937, 6.96], "local_facts": { "ru": "город знаменитого собора", "en": "home of the famous cathedral", "de": "Stadt des berühmten Doms" } },
+            { "id": "stuttgart", "enabled": true, "slug": { "ru": "shtutgart", "en": "stuttgart", "de": "stuttgart" }, "name": { "ru": "Штутгарт", "en": "Stuttgart", "de": "Stuttgart" }, "population": 635911, "coords": [48.776, 9.183], "local_facts": { "ru": "столица автопрома (Mercedes, Porsche)", "en": "automotive capital (Mercedes, Porsche)", "de": "Automobilhauptstadt (Mercedes, Porsche)" } },
+            { "id": "dusseldorf", "enabled": true, "slug": { "ru": "dyusseldorf", "en": "dusseldorf", "de": "duesseldorf" }, "name": { "ru": "Дюссельдорф", "en": "Düsseldorf", "de": "Düsseldorf" }, "population": 621877, "coords": [51.228, 6.774], "local_facts": { "ru": "столица моды и искусства", "en": "fashion and art capital", "de": "Mode- und Kunsthauptstadt" } },
+            { "id": "dresden", "enabled": true, "slug": { "ru": "drezden", "en": "dresden", "de": "dresden" }, "name": { "ru": "Дрезден", "en": "Dresden", "de": "Dresden" }, "population": 563011, "coords": [51.051, 13.738], "local_facts": { "ru": "Флоренция на Эльбе", "en": "Florence on the Elbe", "de": "Elbflorenz" } },
+            { "id": "leipzig", "enabled": true, "slug": { "ru": "lejpcig", "en": "leipzig", "de": "leipzig" }, "name": { "ru": "Лейпциг", "en": "Leipzig", "de": "Leipzig" }, "population": 616093, "coords": [51.34, 12.375], "local_facts": { "ru": "город музыки (Бах, Вагнер)", "en": "city of music (Bach, Wagner)", "de": "Stadt der Musik (Bach, Wagner)" } },
+            { "id": "hanover", "enabled": true, "slug": { "ru": "gannover", "en": "hanover", "de": "hannover" }, "name": { "ru": "Ганновер", "en": "Hanover", "de": "Hannover" }, "population": 545000, "coords": [52.376, 9.732], "local_facts": { "ru": "город выставок и ярмарок", "en": "trade fair city", "de": "Messestadt" } },
+            { "id": "nuremberg", "enabled": true, "slug": { "ru": "nyurnberg", "en": "nuremberg", "de": "nuernberg" }, "name": { "ru": "Нюрнберг", "en": "Nuremberg", "de": "Nürnberg" }, "population": 523026, "coords": [49.452, 11.077], "local_facts": { "ru": "город рождественских ярмарок", "en": "Christmas market city", "de": "Christkindlesmarkt-Stadt" } },
+            { "id": "dortmund", "enabled": true, "slug": { "ru": "dortmund", "en": "dortmund", "de": "dortmund" }, "name": { "ru": "Дортмунд", "en": "Dortmund", "de": "Dortmund" }, "population": 588250, "coords": [51.514, 7.468], "local_facts": { "ru": "центр Рурской области", "en": "center of Ruhr area", "de": "Zentrum des Ruhrgebiets" } },
+            { "id": "essen", "enabled": true, "slug": { "ru": "essen", "en": "essen", "de": "essen" }, "name": { "ru": "Эссен", "en": "Essen", "de": "Essen" }, "population": 582760, "coords": [51.457, 7.012], "local_facts": { "ru": "бывшая промышленная столица", "en": "former industrial capital", "de": "ehemalige Industriehauptstadt" } },
+            { "id": "bremen", "enabled": true, "slug": { "ru": "bremen", "en": "bremen", "de": "bremen" }, "name": { "ru": "Бремен", "en": "Bremen", "de": "Bremen" }, "population": 567559, "coords": [53.079, 8.801], "local_facts": { "ru": "город бременских музыкантов", "en": "town musicians city", "de": "Stadt der Bremer Stadtmusikanten" } },
+            { "id": "bonn", "enabled": true, "slug": { "ru": "bonn", "en": "bonn", "de": "bonn" }, "name": { "ru": "Бонн", "en": "Bonn", "de": "Bonn" }, "population": 333443, "coords": [50.735, 7.099], "local_facts": { "ru": "бывшая столица ФРГ", "en": "former capital of West Germany", "de": "ehemalige Bundeshauptstadt" } },
+            { "id": "mannheim", "enabled": true, "slug": { "ru": "mannheim", "en": "mannheim", "de": "mannheim" }, "name": { "ru": "Мангейм", "en": "Mannheim", "de": "Mannheim" }, "population": 311831, "coords": [49.489, 8.467], "local_facts": { "ru": "город квадратов (шахматная планировка)", "en": "city of squares", "de": "Quadratestadt" } },
+            { "id": "wiesbaden", "enabled": true, "slug": { "ru": "visbaden", "en": "wiesbaden", "de": "wiesbaden" }, "name": { "ru": "Висбаден", "en": "Wiesbaden", "de": "Wiesbaden" }, "population": 283083, "coords": [50.083, 8.24], "local_facts": { "ru": "столица Гессена, курортный город", "en": "Hessian capital, spa city", "de": "Landeshauptstadt Hessens, Kurstadt" } },
+            { "id": "augsburg", "enabled": true, "slug": { "ru": "augsburg", "en": "augsburg", "de": "augsburg" }, "name": { "ru": "Аугсбург", "en": "Augsburg", "de": "Augsburg" }, "population": 300000, "coords": [48.366, 10.898], "local_facts": { "ru": "один из старейших городов Германии", "en": "one of Germany's oldest cities", "de": "eine der ältesten Städte Deutschlands" } },
+            { "id": "freiburg", "enabled": true, "slug": { "ru": "frajburg", "en": "freiburg", "de": "freiburg" }, "name": { "ru": "Фрайбург", "en": "Freiburg", "de": "Freiburg" }, "population": 231195, "coords": [47.999, 7.842], "local_facts": { "ru": "ворота в Шварцвальд", "en": "gateway to Black Forest", "de": "Tor zum Schwarzwald" } },
+            { "id": "karlsruhe", "enabled": true, "slug": { "ru": "karlsrue", "en": "karlsruhe", "de": "karlsruhe" }, "name": { "ru": "Карлсруэ", "en": "Karlsruhe", "de": "Karlsruhe" }, "population": 313092, "coords": [49.009, 8.404], "local_facts": { "ru": "город-веер, IT-центр", "en": "fan-shaped city, IT center", "de": "Fächerstadt, IT-Zentrum" } }
+          ]
+        },
+
+        "france": {
+          "enabled": true,
+          "name": { "ru": "Франция", "en": "France", "de": "Frankreich" },
+          "slug": { "ru": "franciya", "en": "france", "de": "frankreich" },
+          "flag": "🇫🇷",
+          "cities": [
+            { "id": "paris", "enabled": true, "slug": { "ru": "parizh", "en": "paris", "de": "paris" }, "name": { "ru": "Париж", "en": "Paris", "de": "Paris" }, "population": 2161000, "coords": [48.857, 2.352], "local_facts": { "ru": "столица, город света", "en": "capital, City of Light", "de": "Hauptstadt, Stadt des Lichts" } },
+            { "id": "marseille", "enabled": true, "slug": { "ru": "marsel", "en": "marseille", "de": "marseille" }, "name": { "ru": "Марсель", "en": "Marseille", "de": "Marseille" }, "population": 870731, "coords": [43.297, 5.381], "local_facts": { "ru": "крупнейший порт Средиземноморья", "en": "largest Mediterranean port", "de": "größter Mittelmeerhafen" } },
+            { "id": "lyon", "enabled": true, "slug": { "ru": "lion", "en": "lyon", "de": "lyon" }, "name": { "ru": "Лион", "en": "Lyon", "de": "Lyon" }, "population": 522250, "coords": [45.764, 4.836], "local_facts": { "ru": "гастрономическая столица Франции", "en": "gastronomic capital of France", "de": "gastronomische Hauptstadt Frankreichs" } },
+            { "id": "toulouse", "enabled": true, "slug": { "ru": "tuluza", "en": "toulouse", "de": "toulouse" }, "name": { "ru": "Тулуза", "en": "Toulouse", "de": "Toulouse" }, "population": 486828, "coords": [43.605, 1.444], "local_facts": { "ru": "розовый город, центр Airbus", "en": "pink city, Airbus center", "de": "rosa Stadt, Airbus-Zentrum" } },
+            { "id": "nice", "enabled": true, "slug": { "ru": "nicca", "en": "nice", "de": "nizza" }, "name": { "ru": "Ницца", "en": "Nice", "de": "Nizza" }, "population": 342669, "coords": [43.71, 7.262], "local_facts": { "ru": "жемчужина Лазурного берега", "en": "jewel of the French Riviera", "de": "Perle der Côte d'Azur" } },
+            { "id": "strasbourg", "enabled": true, "slug": { "ru": "strasburg", "en": "strasbourg", "de": "strassburg" }, "name": { "ru": "Страсбург", "en": "Strasbourg", "de": "Straßburg" }, "population": 284677, "coords": [48.574, 7.753], "local_facts": { "ru": "столица Европарламента", "en": "European Parliament seat", "de": "Sitz des Europäischen Parlaments" } },
+            { "id": "bordeaux", "enabled": true, "slug": { "ru": "bordo", "en": "bordeaux", "de": "bordeaux" }, "name": { "ru": "Бордо", "en": "Bordeaux", "de": "Bordeaux" }, "population": 257804, "coords": [44.838, -0.579], "local_facts": { "ru": "мировая столица вина", "en": "world wine capital", "de": "Weinhauptstadt der Welt" } },
+            { "id": "nantes", "enabled": true, "slug": { "ru": "nant", "en": "nantes", "de": "nantes" }, "name": { "ru": "Нант", "en": "Nantes", "de": "Nantes" }, "population": 318808, "coords": [47.218, -1.554], "local_facts": { "ru": "город Жюля Верна", "en": "Jules Verne's city", "de": "Stadt von Jules Verne" } },
+            { "id": "montpellier", "enabled": true, "slug": { "ru": "monpele", "en": "montpellier", "de": "montpellier" }, "name": { "ru": "Монпелье", "en": "Montpellier", "de": "Montpellier" }, "population": 290053, "coords": [43.611, 3.877], "local_facts": { "ru": "студенческий город юга", "en": "student city of the south", "de": "Studentenstadt des Südens" } },
+            { "id": "lille", "enabled": true, "slug": { "ru": "lill", "en": "lille", "de": "lille" }, "name": { "ru": "Лилль", "en": "Lille", "de": "Lille" }, "population": 236234, "coords": [50.629, 3.057], "local_facts": { "ru": "культурная столица севера Франции", "en": "cultural capital of northern France", "de": "Kulturhauptstadt Nordfrankreichs" } }
+          ]
+        },
+
+        "uk": {
+          "enabled": true,
+          "name": { "ru": "Великобритания", "en": "United Kingdom", "de": "Großbritannien" },
+          "slug": { "ru": "angliya", "en": "uk", "de": "grossbritannien" },
+          "flag": "🇬🇧",
+          "cities": [
+            { "id": "london", "enabled": true, "slug": { "ru": "london", "en": "london", "de": "london" }, "name": { "ru": "Лондон", "en": "London", "de": "London" }, "population": 8982000, "coords": [51.507, -0.128], "local_facts": { "ru": "столица, финансовый центр мира", "en": "capital, global financial center", "de": "Hauptstadt, globales Finanzzentrum" } },
+            { "id": "manchester", "enabled": true, "slug": { "ru": "manchester", "en": "manchester", "de": "manchester" }, "name": { "ru": "Манчестер", "en": "Manchester", "de": "Manchester" }, "population": 553230, "coords": [53.483, -2.244], "local_facts": { "ru": "город промышленной революции", "en": "city of industrial revolution", "de": "Stadt der industriellen Revolution" } },
+            { "id": "birmingham", "enabled": true, "slug": { "ru": "birmingem", "en": "birmingham", "de": "birmingham" }, "name": { "ru": "Бирмингем", "en": "Birmingham", "de": "Birmingham" }, "population": 1144900, "coords": [52.486, -1.891], "local_facts": { "ru": "второй по величине город UK", "en": "UK's second largest city", "de": "zweitgrößte Stadt Großbritanniens" } },
+            { "id": "edinburgh", "enabled": true, "slug": { "ru": "edinburg", "en": "edinburgh", "de": "edinburgh" }, "name": { "ru": "Эдинбург", "en": "Edinburgh", "de": "Edinburgh" }, "population": 524930, "coords": [55.953, -3.189], "local_facts": { "ru": "столица Шотландии", "en": "capital of Scotland", "de": "Hauptstadt Schottlands" } },
+            { "id": "liverpool", "enabled": true, "slug": { "ru": "liverpul", "en": "liverpool", "de": "liverpool" }, "name": { "ru": "Ливерпуль", "en": "Liverpool", "de": "Liverpool" }, "population": 496784, "coords": [53.408, -2.992], "local_facts": { "ru": "город Битлз", "en": "city of the Beatles", "de": "Stadt der Beatles" } },
+            { "id": "leeds", "enabled": true, "slug": { "ru": "lids", "en": "leeds", "de": "leeds" }, "name": { "ru": "Лидс", "en": "Leeds", "de": "Leeds" }, "population": 812000, "coords": [53.801, -1.549], "local_facts": { "ru": "финансовый центр севера", "en": "financial center of the North", "de": "Finanzzentrum des Nordens" } },
+            { "id": "bristol", "enabled": true, "slug": { "ru": "bristol", "en": "bristol", "de": "bristol" }, "name": { "ru": "Бристоль", "en": "Bristol", "de": "Bristol" }, "population": 472400, "coords": [51.455, -2.588], "local_facts": { "ru": "креативная столица юго-запада", "en": "creative capital of the south-west", "de": "Kreativhauptstadt des Südwestens" } },
+            { "id": "glasgow", "enabled": true, "slug": { "ru": "glazgo", "en": "glasgow", "de": "glasgow" }, "name": { "ru": "Глазго", "en": "Glasgow", "de": "Glasgow" }, "population": 635640, "coords": [55.861, -4.25], "local_facts": { "ru": "крупнейший город Шотландии", "en": "Scotland's largest city", "de": "größte Stadt Schottlands" } },
+            { "id": "cambridge", "enabled": true, "slug": { "ru": "kembrdzh", "en": "cambridge", "de": "cambridge" }, "name": { "ru": "Кембридж", "en": "Cambridge", "de": "Cambridge" }, "population": 145700, "coords": [52.205, 0.122], "local_facts": { "ru": "город университета и науки", "en": "university and science city", "de": "Universitäts- und Wissenschaftsstadt" } },
+            { "id": "oxford", "enabled": true, "slug": { "ru": "oksford", "en": "oxford", "de": "oxford" }, "name": { "ru": "Оксфорд", "en": "Oxford", "de": "Oxford" }, "population": 152450, "coords": [51.752, -1.258], "local_facts": { "ru": "старейший университет англоязычного мира", "en": "oldest English-speaking university", "de": "älteste englischsprachige Universität" } }
+          ]
+        },
+
+        "netherlands": {
+          "enabled": true,
+          "name": { "ru": "Нидерланды", "en": "Netherlands", "de": "Niederlande" },
+          "slug": { "ru": "niderlandy", "en": "netherlands", "de": "niederlande" },
+          "flag": "🇳🇱",
+          "cities": [
+            { "id": "amsterdam", "enabled": true, "slug": { "ru": "amsterdam", "en": "amsterdam", "de": "amsterdam" }, "name": { "ru": "Амстердам", "en": "Amsterdam", "de": "Amsterdam" }, "population": 872680, "coords": [52.37, 4.895], "local_facts": { "ru": "столица, город каналов", "en": "capital, city of canals", "de": "Hauptstadt, Stadt der Kanäle" } },
+            { "id": "rotterdam", "enabled": true, "slug": { "ru": "rotterdam", "en": "rotterdam", "de": "rotterdam" }, "name": { "ru": "Роттердам", "en": "Rotterdam", "de": "Rotterdam" }, "population": 651446, "coords": [51.926, 4.479], "local_facts": { "ru": "крупнейший порт Европы", "en": "Europe's largest port", "de": "größter Hafen Europas" } },
+            { "id": "the_hague", "enabled": true, "slug": { "ru": "gaaga", "en": "the-hague", "de": "den-haag" }, "name": { "ru": "Гаага", "en": "The Hague", "de": "Den Haag" }, "population": 548320, "coords": [52.078, 4.309], "local_facts": { "ru": "город мира и правосудия", "en": "city of peace and justice", "de": "Stadt des Friedens und der Gerechtigkeit" } },
+            { "id": "utrecht", "enabled": true, "slug": { "ru": "utrekht", "en": "utrecht", "de": "utrecht" }, "name": { "ru": "Утрехт", "en": "Utrecht", "de": "Utrecht" }, "population": 361924, "coords": [52.091, 5.122], "local_facts": { "ru": "университетский город в центре страны", "en": "university city in the heart of NL", "de": "Universitätsstadt im Herzen der Niederlande" } },
+            { "id": "eindhoven", "enabled": true, "slug": { "ru": "ejndkhoven", "en": "eindhoven", "de": "eindhoven" }, "name": { "ru": "Эйндховен", "en": "Eindhoven", "de": "Eindhoven" }, "population": 238478, "coords": [51.442, 5.47], "local_facts": { "ru": "город дизайна и технологий (Philips)", "en": "design & tech city (Philips)", "de": "Design- und Technikstadt (Philips)" } }
+          ]
+        },
+
+        "belgium": {
+          "enabled": true,
+          "name": { "ru": "Бельгия", "en": "Belgium", "de": "Belgien" },
+          "slug": { "ru": "belgiya", "en": "belgium", "de": "belgien" },
+          "flag": "🇧🇪",
+          "cities": [
+            { "id": "brussels", "enabled": true, "slug": { "ru": "bryussel", "en": "brussels", "de": "bruessel" }, "name": { "ru": "Брюссель", "en": "Brussels", "de": "Brüssel" }, "population": 1209000, "coords": [50.847, 4.358], "local_facts": { "ru": "столица ЕС", "en": "capital of the EU", "de": "Hauptstadt der EU" } },
+            { "id": "antwerp", "enabled": true, "slug": { "ru": "antverpen", "en": "antwerp", "de": "antwerpen" }, "name": { "ru": "Антверпен", "en": "Antwerp", "de": "Antwerpen" }, "population": 530630, "coords": [51.221, 4.402], "local_facts": { "ru": "мировая столица бриллиантов", "en": "diamond capital of the world", "de": "Diamantenhauptstadt der Welt" } },
+            { "id": "ghent", "enabled": true, "slug": { "ru": "gent", "en": "ghent", "de": "gent" }, "name": { "ru": "Гент", "en": "Ghent", "de": "Gent" }, "population": 264666, "coords": [51.054, 3.722], "local_facts": { "ru": "средневековый студенческий город", "en": "medieval student city", "de": "mittelalterliche Studentenstadt" } }
+          ]
+        },
+
+        "austria": {
+          "enabled": true,
+          "name": { "ru": "Австрия", "en": "Austria", "de": "Österreich" },
+          "slug": { "ru": "avstriya", "en": "austria", "de": "oesterreich" },
+          "flag": "🇦🇹",
+          "cities": [
+            { "id": "vienna", "enabled": true, "slug": { "ru": "vena", "en": "vienna", "de": "wien" }, "name": { "ru": "Вена", "en": "Vienna", "de": "Wien" }, "population": 1982097, "coords": [48.208, 16.374], "local_facts": { "ru": "столица, культурная жемчужина Европы", "en": "capital, cultural pearl of Europe", "de": "Hauptstadt, kulturelle Perle Europas" } },
+            { "id": "salzburg", "enabled": true, "slug": { "ru": "zalcburg", "en": "salzburg", "de": "salzburg" }, "name": { "ru": "Зальцбург", "en": "Salzburg", "de": "Salzburg" }, "population": 155416, "coords": [47.811, 13.055], "local_facts": { "ru": "родина Моцарта", "en": "Mozart's birthplace", "de": "Mozarts Geburtsstadt" } },
+            { "id": "graz", "enabled": true, "slug": { "ru": "grac", "en": "graz", "de": "graz" }, "name": { "ru": "Грац", "en": "Graz", "de": "Graz" }, "population": 294630, "coords": [47.071, 15.439], "local_facts": { "ru": "второй город Австрии, город студентов", "en": "Austria's second city, student town", "de": "zweitgrößte Stadt Österreichs" } },
+            { "id": "innsbruck", "enabled": true, "slug": { "ru": "insbruk", "en": "innsbruck", "de": "innsbruck" }, "name": { "ru": "Инсбрук", "en": "Innsbruck", "de": "Innsbruck" }, "population": 131961, "coords": [47.263, 11.394], "local_facts": { "ru": "столица Тироля, горнолыжный центр", "en": "Tyrolean capital, ski resort", "de": "Landeshauptstadt Tirols, Skiort" } }
+          ]
+        },
+
+        "switzerland": {
+          "enabled": true,
+          "name": { "ru": "Швейцария", "en": "Switzerland", "de": "Schweiz" },
+          "slug": { "ru": "shvejcariya", "en": "switzerland", "de": "schweiz" },
+          "flag": "🇨🇭",
+          "cities": [
+            { "id": "zurich", "enabled": true, "slug": { "ru": "cyurikh", "en": "zurich", "de": "zuerich" }, "name": { "ru": "Цюрих", "en": "Zurich", "de": "Zürich" }, "population": 434335, "coords": [47.377, 8.542], "local_facts": { "ru": "финансовая столица Швейцарии", "en": "financial capital of Switzerland", "de": "Finanzhauptstadt der Schweiz" } },
+            { "id": "geneva", "enabled": true, "slug": { "ru": "zheneva", "en": "geneva", "de": "genf" }, "name": { "ru": "Женева", "en": "Geneva", "de": "Genf" }, "population": 203856, "coords": [46.204, 6.143], "local_facts": { "ru": "столица дипломатии, ООН", "en": "diplomacy capital, UN HQ", "de": "Diplomatiehauptstadt, UNO" } },
+            { "id": "bern", "enabled": true, "slug": { "ru": "bern", "en": "bern", "de": "bern" }, "name": { "ru": "Берн", "en": "Bern", "de": "Bern" }, "population": 134591, "coords": [46.948, 7.448], "local_facts": { "ru": "федеральная столица", "en": "federal capital", "de": "Bundeshauptstadt" } },
+            { "id": "basel", "enabled": true, "slug": { "ru": "bazel", "en": "basel", "de": "basel" }, "name": { "ru": "Базель", "en": "Basel", "de": "Basel" }, "population": 177654, "coords": [47.558, 7.588], "local_facts": { "ru": "город фармацевтики и искусства", "en": "pharma and art city", "de": "Pharma- und Kunststadt" } }
+          ]
+        },
+
+        "luxembourg": {
+          "enabled": true,
+          "name": { "ru": "Люксембург", "en": "Luxembourg", "de": "Luxemburg" },
+          "slug": { "ru": "lyuksemburg", "en": "luxembourg", "de": "luxemburg" },
+          "flag": "🇱🇺",
+          "cities": [
+            { "id": "luxembourg_city", "enabled": true, "slug": { "ru": "lyuksemburg", "en": "luxembourg", "de": "luxemburg" }, "name": { "ru": "Люксембург", "en": "Luxembourg City", "de": "Luxemburg" }, "population": 132778, "coords": [49.612, 6.13], "local_facts": { "ru": "финансовый центр ЕС", "en": "EU financial center", "de": "EU-Finanzzentrum" } }
+          ]
+        }
+      }
+    },
+
+    "southern_europe": {
+      "name": { "ru": "Южная Европа", "en": "Southern Europe", "de": "Südeuropa" },
+      "countries": {
+
+        "spain": {
+          "enabled": true,
+          "name": { "ru": "Испания", "en": "Spain", "de": "Spanien" },
+          "slug": { "ru": "ispaniya", "en": "spain", "de": "spanien" },
+          "flag": "🇪🇸",
+          "cities": [
+            { "id": "madrid", "enabled": true, "slug": { "ru": "madrid", "en": "madrid", "de": "madrid" }, "name": { "ru": "Мадрид", "en": "Madrid", "de": "Madrid" }, "population": 3223334, "coords": [40.417, -3.704], "local_facts": { "ru": "столица, сердце Испании", "en": "capital, heart of Spain", "de": "Hauptstadt, Herz Spaniens" } },
+            { "id": "barcelona", "enabled": true, "slug": { "ru": "barselona", "en": "barcelona", "de": "barcelona" }, "name": { "ru": "Барселона", "en": "Barcelona", "de": "Barcelona" }, "population": 1636762, "coords": [41.386, 2.17], "local_facts": { "ru": "столица Каталонии, город Гауди", "en": "Catalan capital, Gaudí's city", "de": "Hauptstadt Kataloniens, Gaudís Stadt" } },
+            { "id": "valencia", "enabled": true, "slug": { "ru": "valensiya", "en": "valencia", "de": "valencia" }, "name": { "ru": "Валенсия", "en": "Valencia", "de": "Valencia" }, "population": 800215, "coords": [39.47, -0.377], "local_facts": { "ru": "город науки и искусства", "en": "city of arts and sciences", "de": "Stadt der Künste und Wissenschaften" } },
+            { "id": "malaga", "enabled": true, "slug": { "ru": "malaga", "en": "malaga", "de": "malaga" }, "name": { "ru": "Малага", "en": "Málaga", "de": "Málaga" }, "population": 578460, "coords": [36.721, -4.421], "local_facts": { "ru": "жемчужина Коста-дель-Соль", "en": "jewel of Costa del Sol", "de": "Perle der Costa del Sol" } },
+            { "id": "alicante", "enabled": true, "slug": { "ru": "alikante", "en": "alicante", "de": "alicante" }, "name": { "ru": "Аликанте", "en": "Alicante", "de": "Alicante" }, "population": 337482, "coords": [38.345, -0.481], "local_facts": { "ru": "популярный город для экспатов", "en": "popular expat destination", "de": "beliebtes Expat-Ziel" } },
+            { "id": "seville", "enabled": true, "slug": { "ru": "sevilya", "en": "seville", "de": "sevilla" }, "name": { "ru": "Севилья", "en": "Seville", "de": "Sevilla" }, "population": 688592, "coords": [37.389, -5.984], "local_facts": { "ru": "столица Андалусии, город фламенко", "en": "Andalusian capital, flamenco city", "de": "Hauptstadt Andalusiens, Flamenco-Stadt" } },
+            { "id": "bilbao", "enabled": true, "slug": { "ru": "bilbao", "en": "bilbao", "de": "bilbao" }, "name": { "ru": "Бильбао", "en": "Bilbao", "de": "Bilbao" }, "population": 346843, "coords": [43.263, -2.935], "local_facts": { "ru": "город Гуггенхайма, Страна Басков", "en": "Guggenheim city, Basque Country", "de": "Guggenheim-Stadt, Baskenland" } },
+            { "id": "marbella", "enabled": true, "slug": { "ru": "marbela", "en": "marbella", "de": "marbella" }, "name": { "ru": "Марбелья", "en": "Marbella", "de": "Marbella" }, "population": 147633, "coords": [36.51, -4.886], "local_facts": { "ru": "премиальный курорт, русскоязычная община", "en": "premium resort, large Russian community", "de": "Premium-Ferienort" } },
+            { "id": "palma", "enabled": true, "slug": { "ru": "palma", "en": "palma", "de": "palma" }, "name": { "ru": "Пальма-де-Майорка", "en": "Palma de Mallorca", "de": "Palma de Mallorca" }, "population": 416065, "coords": [39.571, 2.647], "local_facts": { "ru": "столица Балеарских островов", "en": "capital of the Balearic Islands", "de": "Hauptstadt der Balearen" } },
+            { "id": "tenerife", "enabled": true, "slug": { "ru": "tenerife", "en": "tenerife", "de": "teneriffa" }, "name": { "ru": "Тенерифе", "en": "Tenerife", "de": "Teneriffa" }, "population": 928604, "coords": [28.292, -16.629], "local_facts": { "ru": "крупнейший Канарский остров", "en": "largest Canary Island", "de": "größte Kanarische Insel" } }
+          ]
+        },
+
+        "italy": {
+          "enabled": true,
+          "name": { "ru": "Италия", "en": "Italy", "de": "Italien" },
+          "slug": { "ru": "italiya", "en": "italy", "de": "italien" },
+          "flag": "🇮🇹",
+          "cities": [
+            { "id": "rome", "enabled": true, "slug": { "ru": "rim", "en": "rome", "de": "rom" }, "name": { "ru": "Рим", "en": "Rome", "de": "Rom" }, "population": 2873000, "coords": [41.902, 12.496], "local_facts": { "ru": "вечный город, столица", "en": "eternal city, capital", "de": "ewige Stadt, Hauptstadt" } },
+            { "id": "milan", "enabled": true, "slug": { "ru": "milan", "en": "milan", "de": "mailand" }, "name": { "ru": "Милан", "en": "Milan", "de": "Mailand" }, "population": 1396059, "coords": [45.464, 9.19], "local_facts": { "ru": "мировая столица моды", "en": "world fashion capital", "de": "Weltmodehauptstadt" } },
+            { "id": "naples", "enabled": true, "slug": { "ru": "neapol", "en": "naples", "de": "neapel" }, "name": { "ru": "Неаполь", "en": "Naples", "de": "Neapel" }, "population": 959470, "coords": [40.852, 14.268], "local_facts": { "ru": "родина пиццы", "en": "birthplace of pizza", "de": "Geburtsort der Pizza" } },
+            { "id": "turin", "enabled": true, "slug": { "ru": "turin", "en": "turin", "de": "turin" }, "name": { "ru": "Турин", "en": "Turin", "de": "Turin" }, "population": 870952, "coords": [45.07, 7.687], "local_facts": { "ru": "первая столица Италии, город FIAT", "en": "first Italian capital, FIAT city", "de": "erste Hauptstadt Italiens, FIAT-Stadt" } },
+            { "id": "florence", "enabled": true, "slug": { "ru": "florenciya", "en": "florence", "de": "florenz" }, "name": { "ru": "Флоренция", "en": "Florence", "de": "Florenz" }, "population": 382808, "coords": [43.769, 11.256], "local_facts": { "ru": "колыбель Ренессанса", "en": "cradle of the Renaissance", "de": "Wiege der Renaissance" } },
+            { "id": "venice", "enabled": true, "slug": { "ru": "veneciya", "en": "venice", "de": "venedig" }, "name": { "ru": "Венеция", "en": "Venice", "de": "Venedig" }, "population": 261905, "coords": [45.438, 12.335], "local_facts": { "ru": "город на воде", "en": "city on water", "de": "Stadt auf dem Wasser" } },
+            { "id": "bologna", "enabled": true, "slug": { "ru": "bolonya", "en": "bologna", "de": "bologna" }, "name": { "ru": "Болонья", "en": "Bologna", "de": "Bologna" }, "population": 394463, "coords": [44.494, 11.347], "local_facts": { "ru": "гастрономическая столица, старейший университет", "en": "food capital, oldest university", "de": "kulinarische Hauptstadt, älteste Universität" } },
+            { "id": "genoa", "enabled": true, "slug": { "ru": "genuya", "en": "genoa", "de": "genua" }, "name": { "ru": "Генуя", "en": "Genoa", "de": "Genua" }, "population": 580097, "coords": [44.407, 8.934], "local_facts": { "ru": "крупнейший порт Италии", "en": "Italy's largest port", "de": "größter Hafen Italiens" } }
+          ]
+        },
+
+        "portugal": {
+          "enabled": true,
+          "name": { "ru": "Португалия", "en": "Portugal", "de": "Portugal" },
+          "slug": { "ru": "portugaliya", "en": "portugal", "de": "portugal" },
+          "flag": "🇵🇹",
+          "cities": [
+            { "id": "lisbon", "enabled": true, "slug": { "ru": "lissabon", "en": "lisbon", "de": "lissabon" }, "name": { "ru": "Лиссабон", "en": "Lisbon", "de": "Lissabon" }, "population": 545923, "coords": [38.722, -9.139], "local_facts": { "ru": "столица на семи холмах", "en": "capital on seven hills", "de": "Hauptstadt auf sieben Hügeln" } },
+            { "id": "porto", "enabled": true, "slug": { "ru": "portu", "en": "porto", "de": "porto" }, "name": { "ru": "Порту", "en": "Porto", "de": "Porto" }, "population": 249633, "coords": [41.158, -8.629], "local_facts": { "ru": "город портвейна", "en": "port wine city", "de": "Portweinstadt" } },
+            { "id": "faro", "enabled": true, "slug": { "ru": "faru", "en": "faro", "de": "faro" }, "name": { "ru": "Фару", "en": "Faro", "de": "Faro" }, "population": 67312, "coords": [37.015, -7.935], "local_facts": { "ru": "ворота Алгарве", "en": "gateway to the Algarve", "de": "Tor zur Algarve" } }
+          ]
+        },
+
+        "greece": {
+          "enabled": true,
+          "name": { "ru": "Греция", "en": "Greece", "de": "Griechenland" },
+          "slug": { "ru": "greciya", "en": "greece", "de": "griechenland" },
+          "flag": "🇬🇷",
+          "cities": [
+            { "id": "athens", "enabled": true, "slug": { "ru": "afiny", "en": "athens", "de": "athen" }, "name": { "ru": "Афины", "en": "Athens", "de": "Athen" }, "population": 3153000, "coords": [37.984, 23.728], "local_facts": { "ru": "колыбель демократии", "en": "cradle of democracy", "de": "Wiege der Demokratie" } },
+            { "id": "thessaloniki", "enabled": true, "slug": { "ru": "saloniki", "en": "thessaloniki", "de": "thessaloniki" }, "name": { "ru": "Салоники", "en": "Thessaloniki", "de": "Thessaloniki" }, "population": 1110312, "coords": [40.641, 22.944], "local_facts": { "ru": "северная столица Греции", "en": "co-capital of Greece", "de": "Mithauptstadt Griechenlands" } }
+          ]
+        }
+      }
+    },
+
+    "northern_europe": {
+      "name": { "ru": "Северная Европа", "en": "Northern Europe", "de": "Nordeuropa" },
+      "countries": {
+
+        "sweden": {
+          "enabled": true,
+          "name": { "ru": "Швеция", "en": "Sweden", "de": "Schweden" },
+          "slug": { "ru": "shveciya", "en": "sweden", "de": "schweden" },
+          "flag": "🇸🇪",
+          "cities": [
+            { "id": "stockholm", "enabled": true, "slug": { "ru": "stokgolm", "en": "stockholm", "de": "stockholm" }, "name": { "ru": "Стокгольм", "en": "Stockholm", "de": "Stockholm" }, "population": 984748, "coords": [59.329, 18.069], "local_facts": { "ru": "столица, Венеция Севера", "en": "capital, Venice of the North", "de": "Hauptstadt, Venedig des Nordens" } },
+            { "id": "gothenburg", "enabled": true, "slug": { "ru": "gyoteborg", "en": "gothenburg", "de": "goeteborg" }, "name": { "ru": "Гётеборг", "en": "Gothenburg", "de": "Göteborg" }, "population": 590580, "coords": [57.709, 11.975], "local_facts": { "ru": "второй город Швеции, порт", "en": "Sweden's second city, port", "de": "zweitgrößte Stadt Schwedens" } }
+          ]
+        },
+
+        "denmark": {
+          "enabled": true,
+          "name": { "ru": "Дания", "en": "Denmark", "de": "Dänemark" },
+          "slug": { "ru": "daniya", "en": "denmark", "de": "daenemark" },
+          "flag": "🇩🇰",
+          "cities": [
+            { "id": "copenhagen", "enabled": true, "slug": { "ru": "kopengagen", "en": "copenhagen", "de": "kopenhagen" }, "name": { "ru": "Копенгаген", "en": "Copenhagen", "de": "Kopenhagen" }, "population": 644431, "coords": [55.676, 12.569], "local_facts": { "ru": "столица, самый счастливый город", "en": "capital, happiest city", "de": "Hauptstadt, glücklichste Stadt" } }
+          ]
+        },
+
+        "norway": {
+          "enabled": true,
+          "name": { "ru": "Норвегия", "en": "Norway", "de": "Norwegen" },
+          "slug": { "ru": "norvegiya", "en": "norway", "de": "norwegen" },
+          "flag": "🇳🇴",
+          "cities": [
+            { "id": "oslo", "enabled": true, "slug": { "ru": "oslo", "en": "oslo", "de": "oslo" }, "name": { "ru": "Осло", "en": "Oslo", "de": "Oslo" }, "population": 697549, "coords": [59.913, 10.752], "local_facts": { "ru": "столица фьордов", "en": "capital of fjords", "de": "Hauptstadt der Fjorde" } }
+          ]
+        },
+
+        "finland": {
+          "enabled": true,
+          "name": { "ru": "Финляндия", "en": "Finland", "de": "Finnland" },
+          "slug": { "ru": "finlyandiya", "en": "finland", "de": "finnland" },
+          "flag": "🇫🇮",
+          "cities": [
+            { "id": "helsinki", "enabled": true, "slug": { "ru": "khelsinki", "en": "helsinki", "de": "helsinki" }, "name": { "ru": "Хельсинки", "en": "Helsinki", "de": "Helsinki" }, "population": 656920, "coords": [60.17, 24.938], "local_facts": { "ru": "столица, дизайн-столица мира", "en": "capital, world design capital", "de": "Hauptstadt, Weltdesignhauptstadt" } }
+          ]
+        }
+      }
+    },
+
+    "eastern_europe": {
+      "name": { "ru": "Восточная Европа", "en": "Eastern Europe", "de": "Osteuropa" },
+      "countries": {
+
+        "poland": {
+          "enabled": true,
+          "name": { "ru": "Польша", "en": "Poland", "de": "Polen" },
+          "slug": { "ru": "polsha", "en": "poland", "de": "polen" },
+          "flag": "🇵🇱",
+          "cities": [
+            { "id": "warsaw", "enabled": true, "slug": { "ru": "varshava", "en": "warsaw", "de": "warschau" }, "name": { "ru": "Варшава", "en": "Warsaw", "de": "Warschau" }, "population": 1862345, "coords": [52.23, 21.012], "local_facts": { "ru": "столица, IT-хаб Восточной Европы", "en": "capital, Eastern European IT hub", "de": "Hauptstadt, IT-Hub Osteuropas" } },
+            { "id": "krakow", "enabled": true, "slug": { "ru": "krakov", "en": "krakow", "de": "krakau" }, "name": { "ru": "Краков", "en": "Kraków", "de": "Krakau" }, "population": 780981, "coords": [50.062, 19.937], "local_facts": { "ru": "культурная столица Польши", "en": "cultural capital of Poland", "de": "Kulturhauptstadt Polens" } },
+            { "id": "gdansk", "enabled": true, "slug": { "ru": "gdansk", "en": "gdansk", "de": "danzig" }, "name": { "ru": "Гданьск", "en": "Gdańsk", "de": "Danzig" }, "population": 471525, "coords": [54.352, 18.647], "local_facts": { "ru": "балтийский порт, город Солидарности", "en": "Baltic port, Solidarity city", "de": "Ostseehafen, Stadt der Solidarność" } },
+            { "id": "wroclaw", "enabled": true, "slug": { "ru": "vroclav", "en": "wroclaw", "de": "breslau" }, "name": { "ru": "Вроцлав", "en": "Wrocław", "de": "Breslau" }, "population": 643782, "coords": [51.108, 17.039], "local_facts": { "ru": "город мостов и гномов", "en": "city of bridges and dwarfs", "de": "Stadt der Brücken und Zwerge" } }
+          ]
+        },
+
+        "czech_republic": {
+          "enabled": true,
+          "name": { "ru": "Чехия", "en": "Czech Republic", "de": "Tschechien" },
+          "slug": { "ru": "chekhiya", "en": "czech-republic", "de": "tschechien" },
+          "flag": "🇨🇿",
+          "cities": [
+            { "id": "prague", "enabled": true, "slug": { "ru": "praga", "en": "prague", "de": "prag" }, "name": { "ru": "Прага", "en": "Prague", "de": "Prag" }, "population": 1335084, "coords": [50.076, 14.438], "local_facts": { "ru": "столица, город ста шпилей", "en": "capital, city of a hundred spires", "de": "Hauptstadt, Stadt der hundert Türme" } },
+            { "id": "brno", "enabled": true, "slug": { "ru": "brno", "en": "brno", "de": "bruenn" }, "name": { "ru": "Брно", "en": "Brno", "de": "Brünn" }, "population": 382405, "coords": [49.195, 16.608], "local_facts": { "ru": "второй город Чехии, IT-центр", "en": "Czech second city, IT center", "de": "zweitgrößte Stadt Tschechiens" } }
+          ]
+        },
+
+        "hungary": {
+          "enabled": true,
+          "name": { "ru": "Венгрия", "en": "Hungary", "de": "Ungarn" },
+          "slug": { "ru": "vengriya", "en": "hungary", "de": "ungarn" },
+          "flag": "🇭🇺",
+          "cities": [
+            { "id": "budapest", "enabled": true, "slug": { "ru": "budapesht", "en": "budapest", "de": "budapest" }, "name": { "ru": "Будапешт", "en": "Budapest", "de": "Budapest" }, "population": 1752286, "coords": [47.498, 19.041], "local_facts": { "ru": "жемчужина Дуная", "en": "pearl of the Danube", "de": "Perle der Donau" } }
+          ]
+        },
+
+        "romania": {
+          "enabled": true,
+          "name": { "ru": "Румыния", "en": "Romania", "de": "Rumänien" },
+          "slug": { "ru": "rumyniya", "en": "romania", "de": "rumaenien" },
+          "flag": "🇷🇴",
+          "cities": [
+            { "id": "bucharest", "enabled": true, "slug": { "ru": "bukharest", "en": "bucharest", "de": "bukarest" }, "name": { "ru": "Бухарест", "en": "Bucharest", "de": "Bukarest" }, "population": 1883425, "coords": [44.426, 26.103], "local_facts": { "ru": "столица, маленький Париж", "en": "capital, little Paris", "de": "Hauptstadt, kleines Paris" } }
+          ]
+        },
+
+        "croatia": {
+          "enabled": true,
+          "name": { "ru": "Хорватия", "en": "Croatia", "de": "Kroatien" },
+          "slug": { "ru": "khorvatiya", "en": "croatia", "de": "kroatien" },
+          "flag": "🇭🇷",
+          "cities": [
+            { "id": "zagreb", "enabled": true, "slug": { "ru": "zagreb", "en": "zagreb", "de": "zagreb" }, "name": { "ru": "Загреб", "en": "Zagreb", "de": "Zagreb" }, "population": 806341, "coords": [45.815, 15.982], "local_facts": { "ru": "столица Хорватии", "en": "Croatian capital", "de": "kroatische Hauptstadt" } }
+          ]
+        },
+
+        "bulgaria": {
+          "enabled": true,
+          "name": { "ru": "Болгария", "en": "Bulgaria", "de": "Bulgarien" },
+          "slug": { "ru": "bolgariya", "en": "bulgaria", "de": "bulgarien" },
+          "flag": "🇧🇬",
+          "cities": [
+            { "id": "sofia", "enabled": true, "slug": { "ru": "sofiya", "en": "sofia", "de": "sofia" }, "name": { "ru": "София", "en": "Sofia", "de": "Sofia" }, "population": 1307439, "coords": [42.698, 23.322], "local_facts": { "ru": "столица Болгарии", "en": "Bulgarian capital", "de": "bulgarische Hauptstadt" } }
+          ]
+        }
+      }
+    },
+
+    "cis_russia": {
+      "name": { "ru": "Россия и СНГ", "en": "Russia & CIS", "de": "Russland & GUS" },
+      "countries": {
+
+        "russia": {
+          "enabled": true,
+          "name": { "ru": "Россия", "en": "Russia", "de": "Russland" },
+          "slug": { "ru": "rossiya", "en": "russia", "de": "russland" },
+          "flag": "🇷🇺",
+          "note": "Санкционные маршруты — особые условия транзита",
+          "cities": [
+            { "id": "moscow", "enabled": true, "slug": { "ru": "moskva", "en": "moscow", "de": "moskau" }, "name": { "ru": "Москва", "en": "Moscow", "de": "Moskau" }, "population": 13104177, "coords": [55.756, 37.618], "local_facts": { "ru": "столица России", "en": "capital of Russia", "de": "Hauptstadt Russlands" } },
+            { "id": "spb", "enabled": true, "slug": { "ru": "spb", "en": "saint-petersburg", "de": "st-petersburg" }, "name": { "ru": "Санкт-Петербург", "en": "Saint Petersburg", "de": "Sankt Petersburg" }, "population": 5601911, "coords": [59.934, 30.336], "local_facts": { "ru": "культурная столица России", "en": "cultural capital of Russia", "de": "Kulturhauptstadt Russlands" } },
+            { "id": "novosibirsk", "enabled": true, "slug": { "ru": "novosibirsk", "en": "novosibirsk", "de": "nowosibirsk" }, "name": { "ru": "Новосибирск", "en": "Novosibirsk", "de": "Nowosibirsk" }, "population": 1633595, "coords": [55.031, 82.921], "local_facts": { "ru": "столица Сибири", "en": "capital of Siberia", "de": "Hauptstadt Sibiriens" } },
+            { "id": "yekaterinburg", "enabled": true, "slug": { "ru": "ekaterinburg", "en": "yekaterinburg", "de": "jekaterinburg" }, "name": { "ru": "Екатеринбург", "en": "Yekaterinburg", "de": "Jekaterinburg" }, "population": 1544376, "coords": [56.839, 60.607], "local_facts": { "ru": "столица Урала", "en": "capital of the Urals", "de": "Hauptstadt des Urals" } },
+            { "id": "kazan", "enabled": true, "slug": { "ru": "kazan", "en": "kazan", "de": "kasan" }, "name": { "ru": "Казань", "en": "Kazan", "de": "Kasan" }, "population": 1308660, "coords": [55.796, 49.108], "local_facts": { "ru": "третья столица России", "en": "third capital of Russia", "de": "dritte Hauptstadt Russlands" } },
+            { "id": "nizhny_novgorod", "enabled": true, "slug": { "ru": "nizhny-novgorod", "en": "nizhny-novgorod", "de": "nischni-nowgorod" }, "name": { "ru": "Нижний Новгород", "en": "Nizhny Novgorod", "de": "Nischni Nowgorod" }, "population": 1228199, "coords": [56.297, 44.008], "local_facts": { "ru": "город на слиянии Волги и Оки", "en": "city at the confluence of Volga and Oka", "de": "Stadt am Zusammenfluss von Wolga und Oka" } },
+            { "id": "krasnodar", "enabled": true, "slug": { "ru": "krasnodar", "en": "krasnodar", "de": "krasnodar" }, "name": { "ru": "Краснодар", "en": "Krasnodar", "de": "Krasnodar" }, "population": 1099344, "coords": [45.035, 38.976], "local_facts": { "ru": "столица Кубани, южный хаб", "en": "Kuban capital, southern hub", "de": "Hauptstadt des Kuban, südlicher Hub" } },
+            { "id": "sochi", "enabled": true, "slug": { "ru": "sochi", "en": "sochi", "de": "sotschi" }, "name": { "ru": "Сочи", "en": "Sochi", "de": "Sotschi" }, "population": 443562, "coords": [43.588, 39.729], "local_facts": { "ru": "олимпийская столица, курорт", "en": "Olympic capital, resort city", "de": "Olympiahauptstadt, Kurort" } },
+            { "id": "rostov", "enabled": true, "slug": { "ru": "rostov-na-donu", "en": "rostov-on-don", "de": "rostow-am-don" }, "name": { "ru": "Ростов-на-Дону", "en": "Rostov-on-Don", "de": "Rostow am Don" }, "population": 1142162, "coords": [47.236, 39.713], "local_facts": { "ru": "ворота Кавказа", "en": "gateway to the Caucasus", "de": "Tor zum Kaukasus" } },
+            { "id": "kaliningrad", "enabled": true, "slug": { "ru": "kaliningrad", "en": "kaliningrad", "de": "kaliningrad" }, "name": { "ru": "Калининград", "en": "Kaliningrad", "de": "Kaliningrad" }, "population": 489359, "coords": [54.711, 20.511], "local_facts": { "ru": "российский эксклав в Европе", "en": "Russian exclave in Europe", "de": "russische Exklave in Europa" } },
+            { "id": "vladivostok", "enabled": true, "slug": { "ru": "vladivostok", "en": "vladivostok", "de": "wladiwostok" }, "name": { "ru": "Владивосток", "en": "Vladivostok", "de": "Wladiwostok" }, "population": 605049, "coords": [43.116, 131.882], "local_facts": { "ru": "тихоокеанские ворота России", "en": "Russia's Pacific gateway", "de": "Russlands Pazifik-Tor" } },
+            { "id": "samara", "enabled": true, "slug": { "ru": "samara", "en": "samara", "de": "samara" }, "name": { "ru": "Самара", "en": "Samara", "de": "Samara" }, "population": 1156644, "coords": [53.196, 50.101], "local_facts": { "ru": "город на Волге, космическая столица", "en": "Volga city, space capital", "de": "Wolga-Stadt, Weltraumhauptstadt" } }
+          ]
+        },
+
+        "kazakhstan": {
+          "enabled": true,
+          "name": { "ru": "Казахстан", "en": "Kazakhstan", "de": "Kasachstan" },
+          "slug": { "ru": "kazakhstan", "en": "kazakhstan", "de": "kasachstan" },
+          "flag": "🇰🇿",
+          "cities": [
+            { "id": "astana", "enabled": true, "slug": { "ru": "astana", "en": "astana", "de": "astana" }, "name": { "ru": "Астана", "en": "Astana", "de": "Astana" }, "population": 1350228, "coords": [51.17, 71.449], "local_facts": { "ru": "столица Казахстана", "en": "capital of Kazakhstan", "de": "Hauptstadt Kasachstans" } },
+            { "id": "almaty", "enabled": true, "slug": { "ru": "almaty", "en": "almaty", "de": "almaty" }, "name": { "ru": "Алматы", "en": "Almaty", "de": "Almaty" }, "population": 2147135, "coords": [43.238, 76.946], "local_facts": { "ru": "южная столица, город яблок", "en": "southern capital, city of apples", "de": "südliche Hauptstadt, Stadt der Äpfel" } }
+          ]
+        },
+
+        "uzbekistan": {
+          "enabled": true,
+          "name": { "ru": "Узбекистан", "en": "Uzbekistan", "de": "Usbekistan" },
+          "slug": { "ru": "uzbekistan", "en": "uzbekistan", "de": "usbekistan" },
+          "flag": "🇺🇿",
+          "cities": [
+            { "id": "tashkent", "enabled": true, "slug": { "ru": "tashkent", "en": "tashkent", "de": "taschkent" }, "name": { "ru": "Ташкент", "en": "Tashkent", "de": "Taschkent" }, "population": 2909466, "coords": [41.299, 69.24], "local_facts": { "ru": "столица Узбекистана, крупнейший город ЦА", "en": "capital, largest Central Asian city", "de": "Hauptstadt, größte Stadt Zentralasiens" } }
+          ]
+        },
+
+        "georgia": {
+          "enabled": true,
+          "name": { "ru": "Грузия", "en": "Georgia", "de": "Georgien" },
+          "slug": { "ru": "gruziya", "en": "georgia", "de": "georgien" },
+          "flag": "🇬🇪",
+          "cities": [
+            { "id": "tbilisi", "enabled": true, "slug": { "ru": "tbilisi", "en": "tbilisi", "de": "tiflis" }, "name": { "ru": "Тбилиси", "en": "Tbilisi", "de": "Tiflis" }, "population": 1202731, "coords": [41.693, 44.802], "local_facts": { "ru": "столица Грузии", "en": "capital of Georgia", "de": "Hauptstadt Georgiens" } },
+            { "id": "batumi", "enabled": true, "slug": { "ru": "batumi", "en": "batumi", "de": "batumi" }, "name": { "ru": "Батуми", "en": "Batumi", "de": "Batumi" }, "population": 180643, "coords": [41.641, 41.632], "local_facts": { "ru": "курортная столица Грузии", "en": "resort capital of Georgia", "de": "Ferienhauptstadt Georgiens" } }
+          ]
+        },
+
+        "armenia": {
+          "enabled": true,
+          "name": { "ru": "Армения", "en": "Armenia", "de": "Armenien" },
+          "slug": { "ru": "armeniya", "en": "armenia", "de": "armenien" },
+          "flag": "🇦🇲",
+          "cities": [
+            { "id": "yerevan", "enabled": true, "slug": { "ru": "erevan", "en": "yerevan", "de": "jerewan" }, "name": { "ru": "Ереван", "en": "Yerevan", "de": "Jerewan" }, "population": 1093485, "coords": [40.183, 44.515], "local_facts": { "ru": "розовый город, одна из древнейших столиц мира", "en": "pink city, one of the world's oldest capitals", "de": "rosa Stadt, eine der ältesten Hauptstädte" } }
+          ]
+        },
+
+        "azerbaijan": {
+          "enabled": true,
+          "name": { "ru": "Азербайджан", "en": "Azerbaijan", "de": "Aserbaidschan" },
+          "slug": { "ru": "azerbajdzhan", "en": "azerbaijan", "de": "aserbaidschan" },
+          "flag": "🇦🇿",
+          "cities": [
+            { "id": "baku", "enabled": true, "slug": { "ru": "baku", "en": "baku", "de": "baku" }, "name": { "ru": "Баку", "en": "Baku", "de": "Baku" }, "population": 2236000, "coords": [40.409, 49.868], "local_facts": { "ru": "город ветров на Каспии", "en": "city of winds on the Caspian", "de": "Stadt der Winde am Kaspischen Meer" } }
+          ]
+        },
+
+        "belarus": {
+          "enabled": true,
+          "name": { "ru": "Беларусь", "en": "Belarus", "de": "Belarus" },
+          "slug": { "ru": "belarus", "en": "belarus", "de": "belarus" },
+          "flag": "🇧🇾",
+          "note": "Транзитная страна для маршрутов DE→RU",
+          "cities": [
+            { "id": "minsk", "enabled": true, "slug": { "ru": "minsk", "en": "minsk", "de": "minsk" }, "name": { "ru": "Минск", "en": "Minsk", "de": "Minsk" }, "population": 2020600, "coords": [53.904, 27.557], "local_facts": { "ru": "столица Беларуси", "en": "capital of Belarus", "de": "Hauptstadt von Belarus" } }
+          ]
+        },
+
+        "ukraine": {
+          "enabled": false,
+          "name": { "ru": "Украина", "en": "Ukraine", "de": "Ukraine" },
+          "slug": { "ru": "ukraina", "en": "ukraine", "de": "ukraine" },
+          "flag": "🇺🇦",
+          "note": "Временно отключена из-за ситуации",
+          "cities": [
+            { "id": "kyiv", "enabled": false, "slug": { "ru": "kiev", "en": "kyiv", "de": "kiew" }, "name": { "ru": "Киев", "en": "Kyiv", "de": "Kiew" }, "population": 2962180, "coords": [50.45, 30.524], "local_facts": { "ru": "столица Украины", "en": "capital of Ukraine", "de": "Hauptstadt der Ukraine" } }
+          ]
+        },
+
+        "moldova": {
+          "enabled": true,
+          "name": { "ru": "Молдова", "en": "Moldova", "de": "Moldawien" },
+          "slug": { "ru": "moldova", "en": "moldova", "de": "moldawien" },
+          "flag": "🇲🇩",
+          "cities": [
+            { "id": "chisinau", "enabled": true, "slug": { "ru": "kishinev", "en": "chisinau", "de": "chisinau" }, "name": { "ru": "Кишинёв", "en": "Chișinău", "de": "Chișinău" }, "population": 779300, "coords": [47.011, 28.836], "local_facts": { "ru": "столица Молдовы", "en": "capital of Moldova", "de": "Hauptstadt Moldawiens" } }
+          ]
+        }
+      }
+    },
+
+    "middle_east": {
+      "name": { "ru": "Ближний Восток", "en": "Middle East", "de": "Naher Osten" },
+      "countries": {
+
+        "uae": {
+          "enabled": true,
+          "name": { "ru": "ОАЭ", "en": "UAE", "de": "VAE" },
+          "slug": { "ru": "oae", "en": "uae", "de": "vae" },
+          "flag": "🇦🇪",
+          "cities": [
+            { "id": "dubai", "enabled": true, "slug": { "ru": "dubaj", "en": "dubai", "de": "dubai" }, "name": { "ru": "Дубай", "en": "Dubai", "de": "Dubai" }, "population": 3478300, "coords": [25.205, 55.271], "local_facts": { "ru": "город небоскрёбов, бизнес-хаб", "en": "skyscraper city, business hub", "de": "Wolkenkratzerstadt, Business-Hub" } },
+            { "id": "abu_dhabi", "enabled": true, "slug": { "ru": "abu-dabi", "en": "abu-dhabi", "de": "abu-dhabi" }, "name": { "ru": "Абу-Даби", "en": "Abu Dhabi", "de": "Abu Dhabi" }, "population": 1512000, "coords": [24.454, 54.653], "local_facts": { "ru": "столица ОАЭ", "en": "capital of the UAE", "de": "Hauptstadt der VAE" } }
+          ]
+        },
+
+        "israel": {
+          "enabled": true,
+          "name": { "ru": "Израиль", "en": "Israel", "de": "Israel" },
+          "slug": { "ru": "izrail", "en": "israel", "de": "israel" },
+          "flag": "🇮🇱",
+          "cities": [
+            { "id": "tel_aviv", "enabled": true, "slug": { "ru": "tel-aviv", "en": "tel-aviv", "de": "tel-aviv" }, "name": { "ru": "Тель-Авив", "en": "Tel Aviv", "de": "Tel Aviv" }, "population": 460613, "coords": [32.087, 34.774], "local_facts": { "ru": "город который не спит, стартап-нация", "en": "city that never sleeps, startup nation", "de": "Stadt die nie schläft, Startup-Nation" } },
+            { "id": "haifa", "enabled": true, "slug": { "ru": "khajfa", "en": "haifa", "de": "haifa" }, "name": { "ru": "Хайфа", "en": "Haifa", "de": "Haifa" }, "population": 285316, "coords": [32.794, 34.99], "local_facts": { "ru": "портовый город на Средиземноморье", "en": "Mediterranean port city", "de": "Mittelmeer-Hafenstadt" } }
+          ]
+        },
+
+        "turkey": {
+          "enabled": true,
+          "name": { "ru": "Турция", "en": "Turkey", "de": "Türkei" },
+          "slug": { "ru": "turciya", "en": "turkey", "de": "tuerkei" },
+          "flag": "🇹🇷",
+          "cities": [
+            { "id": "istanbul", "enabled": true, "slug": { "ru": "stambul", "en": "istanbul", "de": "istanbul" }, "name": { "ru": "Стамбул", "en": "Istanbul", "de": "Istanbul" }, "population": 15840900, "coords": [41.009, 28.978], "local_facts": { "ru": "город двух континентов", "en": "city on two continents", "de": "Stadt auf zwei Kontinenten" } },
+            { "id": "antalya", "enabled": true, "slug": { "ru": "antalya", "en": "antalya", "de": "antalya" }, "name": { "ru": "Анталья", "en": "Antalya", "de": "Antalya" }, "population": 2619832, "coords": [36.897, 30.714], "local_facts": { "ru": "курортная столица, русскоязычная община", "en": "resort capital, large Russian community", "de": "Ferienhauptstadt, große russische Gemeinde" } }
+          ]
+        },
+
+        "qatar": {
+          "enabled": true,
+          "name": { "ru": "Катар", "en": "Qatar", "de": "Katar" },
+          "slug": { "ru": "katar", "en": "qatar", "de": "katar" },
+          "flag": "🇶🇦",
+          "cities": [
+            { "id": "doha", "enabled": true, "slug": { "ru": "dokha", "en": "doha", "de": "doha" }, "name": { "ru": "Доха", "en": "Doha", "de": "Doha" }, "population": 2382000, "coords": [25.286, 51.534], "local_facts": { "ru": "столица Катара", "en": "capital of Qatar", "de": "Hauptstadt Katars" } }
+          ]
+        },
+
+        "saudi_arabia": {
+          "enabled": false,
+          "name": { "ru": "Саудовская Аравия", "en": "Saudi Arabia", "de": "Saudi-Arabien" },
+          "slug": { "ru": "saudovskaya-araviya", "en": "saudi-arabia", "de": "saudi-arabien" },
+          "flag": "🇸🇦",
+          "cities": [
+            { "id": "riyadh", "enabled": false, "slug": { "ru": "er-riyad", "en": "riyadh", "de": "riad" }, "name": { "ru": "Эр-Рияд", "en": "Riyadh", "de": "Riad" }, "population": 7676654, "coords": [24.713, 46.675], "local_facts": { "ru": "столица Саудовской Аравии", "en": "capital of Saudi Arabia", "de": "Hauptstadt Saudi-Arabiens" } }
+          ]
+        }
+      }
+    },
+
+    "asia": {
+      "name": { "ru": "Азия", "en": "Asia", "de": "Asien" },
+      "countries": {
+
+        "china": {
+          "enabled": true,
+          "name": { "ru": "Китай", "en": "China", "de": "China" },
+          "slug": { "ru": "kitaj", "en": "china", "de": "china" },
+          "flag": "🇨🇳",
+          "cities": [
+            { "id": "shanghai", "enabled": true, "slug": { "ru": "shankhaj", "en": "shanghai", "de": "shanghai" }, "name": { "ru": "Шанхай", "en": "Shanghai", "de": "Shanghai" }, "population": 28516904, "coords": [31.231, 121.473], "local_facts": { "ru": "крупнейший город Китая", "en": "China's largest city", "de": "größte Stadt Chinas" } },
+            { "id": "beijing", "enabled": true, "slug": { "ru": "pekin", "en": "beijing", "de": "peking" }, "name": { "ru": "Пекин", "en": "Beijing", "de": "Peking" }, "population": 21893095, "coords": [39.904, 116.407], "local_facts": { "ru": "столица Китая", "en": "capital of China", "de": "Hauptstadt Chinas" } }
+          ]
+        },
+
+        "japan": {
+          "enabled": false,
+          "name": { "ru": "Япония", "en": "Japan", "de": "Japan" },
+          "slug": { "ru": "yaponiya", "en": "japan", "de": "japan" },
+          "flag": "🇯🇵",
+          "cities": [
+            { "id": "tokyo", "enabled": false, "slug": { "ru": "tokio", "en": "tokyo", "de": "tokio" }, "name": { "ru": "Токио", "en": "Tokyo", "de": "Tokio" }, "population": 13960000, "coords": [35.682, 139.759], "local_facts": { "ru": "столица Японии", "en": "capital of Japan", "de": "Hauptstadt Japans" } }
+          ]
+        },
+
+        "south_korea": {
+          "enabled": false,
+          "name": { "ru": "Южная Корея", "en": "South Korea", "de": "Südkorea" },
+          "slug": { "ru": "yuzhnaya-koreya", "en": "south-korea", "de": "suedkorea" },
+          "flag": "🇰🇷",
+          "cities": [
+            { "id": "seoul", "enabled": false, "slug": { "ru": "seul", "en": "seoul", "de": "seoul" }, "name": { "ru": "Сеул", "en": "Seoul", "de": "Seoul" }, "population": 9776000, "coords": [37.567, 126.978], "local_facts": { "ru": "столица Южной Кореи", "en": "capital of South Korea", "de": "Hauptstadt Südkoreas" } }
+          ]
+        },
+
+        "thailand": {
+          "enabled": true,
+          "name": { "ru": "Таиланд", "en": "Thailand", "de": "Thailand" },
+          "slug": { "ru": "tailand", "en": "thailand", "de": "thailand" },
+          "flag": "🇹🇭",
+          "cities": [
+            { "id": "bangkok", "enabled": true, "slug": { "ru": "bangkok", "en": "bangkok", "de": "bangkok" }, "name": { "ru": "Бангкок", "en": "Bangkok", "de": "Bangkok" }, "population": 10539000, "coords": [13.756, 100.502], "local_facts": { "ru": "город ангелов, популярный среди экспатов", "en": "city of angels, popular with expats", "de": "Stadt der Engel, beliebt bei Expats" } },
+            { "id": "phuket", "enabled": true, "slug": { "ru": "phuket", "en": "phuket", "de": "phuket" }, "name": { "ru": "Пхукет", "en": "Phuket", "de": "Phuket" }, "population": 416582, "coords": [7.88, 98.385], "local_facts": { "ru": "крупнейший остров Таиланда", "en": "Thailand's largest island", "de": "größte Insel Thailands" } }
+          ]
+        },
+
+        "singapore": {
+          "enabled": true,
+          "name": { "ru": "Сингапур", "en": "Singapore", "de": "Singapur" },
+          "slug": { "ru": "singapur", "en": "singapore", "de": "singapur" },
+          "flag": "🇸🇬",
+          "cities": [
+            { "id": "singapore_city", "enabled": true, "slug": { "ru": "singapur", "en": "singapore", "de": "singapur" }, "name": { "ru": "Сингапур", "en": "Singapore", "de": "Singapur" }, "population": 5917000, "coords": [1.352, 103.82], "local_facts": { "ru": "город-государство, финансовый хаб Азии", "en": "city-state, Asia's financial hub", "de": "Stadtstaat, Finanzzentrum Asiens" } }
+          ]
+        }
+      }
+    },
+
+    "americas": {
+      "name": { "ru": "Америка", "en": "Americas", "de": "Amerika" },
+      "countries": {
+
+        "usa": {
+          "enabled": false,
+          "name": { "ru": "США", "en": "USA", "de": "USA" },
+          "slug": { "ru": "ssha", "en": "usa", "de": "usa" },
+          "flag": "🇺🇸",
+          "note": "Планируется на будущее",
+          "cities": [
+            { "id": "new_york", "enabled": false, "slug": { "ru": "nyu-jork", "en": "new-york", "de": "new-york" }, "name": { "ru": "Нью-Йорк", "en": "New York", "de": "New York" }, "population": 8336817, "coords": [40.713, -74.006], "local_facts": { "ru": "крупнейший город США", "en": "USA's largest city", "de": "größte Stadt der USA" } },
+            { "id": "los_angeles", "enabled": false, "slug": { "ru": "los-andzheles", "en": "los-angeles", "de": "los-angeles" }, "name": { "ru": "Лос-Анджелес", "en": "Los Angeles", "de": "Los Angeles" }, "population": 3979576, "coords": [34.052, -118.244], "local_facts": { "ru": "город ангелов, Голливуд", "en": "city of angels, Hollywood", "de": "Stadt der Engel, Hollywood" } },
+            { "id": "miami", "enabled": false, "slug": { "ru": "majami", "en": "miami", "de": "miami" }, "name": { "ru": "Майами", "en": "Miami", "de": "Miami" }, "population": 467963, "coords": [25.762, -80.192], "local_facts": { "ru": "ворота Латинской Америки", "en": "gateway to Latin America", "de": "Tor zu Lateinamerika" } }
+          ]
+        },
+
+        "canada": {
+          "enabled": false,
+          "name": { "ru": "Канада", "en": "Canada", "de": "Kanada" },
+          "slug": { "ru": "kanada", "en": "canada", "de": "kanada" },
+          "flag": "🇨🇦",
+          "cities": [
+            { "id": "toronto", "enabled": false, "slug": { "ru": "toronto", "en": "toronto", "de": "toronto" }, "name": { "ru": "Торонто", "en": "Toronto", "de": "Toronto" }, "population": 2794356, "coords": [43.653, -79.383], "local_facts": { "ru": "крупнейший город Канады", "en": "Canada's largest city", "de": "größte Stadt Kanadas" } },
+            { "id": "vancouver", "enabled": false, "slug": { "ru": "vankuver", "en": "vancouver", "de": "vancouver" }, "name": { "ru": "Ванкувер", "en": "Vancouver", "de": "Vancouver" }, "population": 662248, "coords": [49.283, -123.121], "local_facts": { "ru": "город гор и океана", "en": "city of mountains and ocean", "de": "Stadt der Berge und des Ozeans" } }
+          ]
+        }
+      }
+    },
+
+    "africa_oceania": {
+      "name": { "ru": "Африка и Океания", "en": "Africa & Oceania", "de": "Afrika & Ozeanien" },
+      "countries": {
+
+        "australia": {
+          "enabled": false,
+          "name": { "ru": "Австралия", "en": "Australia", "de": "Australien" },
+          "slug": { "ru": "avstraliya", "en": "australia", "de": "australien" },
+          "flag": "🇦🇺",
+          "cities": [
+            { "id": "sydney", "enabled": false, "slug": { "ru": "sidnej", "en": "sydney", "de": "sydney" }, "name": { "ru": "Сидней", "en": "Sydney", "de": "Sydney" }, "population": 5312163, "coords": [-33.869, 151.209], "local_facts": { "ru": "крупнейший город Австралии", "en": "Australia's largest city", "de": "größte Stadt Australiens" } },
+            { "id": "melbourne", "enabled": false, "slug": { "ru": "melburn", "en": "melbourne", "de": "melbourne" }, "name": { "ru": "Мельбурн", "en": "Melbourne", "de": "Melbourne" }, "population": 5078193, "coords": [-37.814, 144.963], "local_facts": { "ru": "культурная столица Австралии", "en": "cultural capital of Australia", "de": "Kulturhauptstadt Australiens" } }
+          ]
+        },
+
+        "south_africa": {
+          "enabled": false,
+          "name": { "ru": "ЮАР", "en": "South Africa", "de": "Südafrika" },
+          "slug": { "ru": "yuar", "en": "south-africa", "de": "suedafrika" },
+          "flag": "🇿🇦",
+          "cities": [
+            { "id": "cape_town", "enabled": false, "slug": { "ru": "kejptaun", "en": "cape-town", "de": "kapstadt" }, "name": { "ru": "Кейптаун", "en": "Cape Town", "de": "Kapstadt" }, "population": 4618000, "coords": [-33.925, 18.424], "local_facts": { "ru": "город у мыса Доброй Надежды", "en": "city at the Cape of Good Hope", "de": "Stadt am Kap der Guten Hoffnung" } }
+          ]
+        }
+      }
+    }
+  }
+}
