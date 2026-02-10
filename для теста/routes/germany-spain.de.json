@@ -1,0 +1,626 @@
+{
+  "route": {
+    "from": "Germany",
+    "to": "Spain",
+    "from_local": "Deutschland",
+    "to_local": "Spanien",
+    "from_local_where": "Deutschland",
+    "to_local_where": "Spanien",
+    "slug": "germany-spain",
+    "direction": "de-es"
+  },
+  "lang": "de",
+  "seo": {
+    "title": "Umzug von Deutschland nach Spanien — 5–7 Tage | Intrelo",
+    "description": "Umzug von Deutschland nach Spanien in 5–7 Tagen. Direkter Transport innerhalb der EU, keine Zollabfertigung. Verpackung, Versicherung, Tür-zu-Tür.",
+    "h1_line1": "Umzug & Übersiedlung",
+    "h1_line2": "von Deutschland nach Spanien",
+    "canonical": "/international-moving/germany-spain/",
+    "hreflang": {
+      "ru": "/international-moving/germany-spain/",
+      "en": "/en/international-moving/germany-spain/",
+      "de": "/de/international-moving/germany-spain/",
+      "x-default": "/international-moving/germany-spain/"
+    },
+    "og": {
+      "title": "Umzug nach Spanien — 5–7 Tage, EU-direkt",
+      "description": "Direkter Transport innerhalb der EU. Tür-zu-Tür.",
+      "image": "/assets/og/germany-spain.jpg",
+      "type": "website",
+      "locale": "de_DE"
+    },
+    "breadcrumbs": [
+      {
+        "name": "Startseite",
+        "url": "/"
+      },
+      {
+        "name": "Internationale Umzüge",
+        "url": "/international-moving/"
+      },
+      {
+        "name": "Deutschland → Spanien",
+        "url": "/international-moving/germany-spain/"
+      }
+    ],
+    "lsi_keywords": [
+      "umzug von deutschland nach spanien",
+      "privatumzug spanien",
+      "spedition deutschland spanien",
+      "umzug nach mallorca",
+      "umzug kanarische inseln",
+      "umzugskosten deutschland spanien"
+    ]
+  },
+  "hero": {
+    "subtitle": "Wir waren der offizielle Spediteur der Königin von Großbritannien. Direkter Straßentransport von Deutschland nach Spanien in 5–7 Tagen. Kein Zoll innerhalb der EU. Verpackung, Versicherung, Tür-zu-Tür. Klimaangepasste Verpackung.",
+    "cta": "Kostenlose Kalkulation anfordern",
+    "slides": [
+      {
+        "src": "assets/hero/hero-warehouse.jpg",
+        "alt": "Lager"
+      },
+      {
+        "src": "assets/hero/hero-moving.jpg",
+        "alt": "Umzug nach Spanien"
+      },
+      {
+        "src": "assets/hero/hero-packing.jpg",
+        "alt": "Verpackung"
+      }
+    ]
+  },
+  "process": {
+    "title": "So läuft Ihr Umzug nach Spanien ab",
+    "subtitle": "Beide Länder sind EU-Mitglieder — kein Zoll, keine Abgaben. Direktlieferung per LKW über Frankreich in 5–7 Tagen.",
+    "cards": [
+      {
+        "title": "Vorbereitung in Deutschland",
+        "items": [
+          {
+            "icon": "assets/process/consultation-whatsapp.png",
+            "text": "Beratung — Fotos/Videos per WhatsApp senden. Kostenlose Besichtigung in ganz Deutschland."
+          },
+          {
+            "icon": "assets/process/packing.jpg",
+            "text": "Verpackung vor Ort — Thermoschutz für Elektronik (Temperaturdifferenz DE→ES). Foto-Inventar."
+          },
+          {
+            "icon": "assets/process/warehouse.jpg",
+            "text": "Konsolidierungslager — Palettierung, Kennzeichnung, Sammelfracht bei Bedarf."
+          }
+        ]
+      },
+      {
+        "title": "Transport innerhalb der EU",
+        "items": [
+          {
+            "icon": "assets/process/export-customs.jpg",
+            "text": "Kein Zoll innerhalb der EU — freier Warenverkehr. Nur CMR und Transportdokumente."
+          },
+          {
+            "icon": "assets/process/transport.jpg",
+            "text": "Direktroute über Frankreich: Deutschland → Straßburg → Lyon → Barcelona/Madrid in 5–7 Tagen."
+          },
+          {
+            "icon": "assets/process/import-customs.jpg",
+            "text": "Keine Umladung — direkte Lieferung mit einem Fahrzeug Tür zu Tür."
+          }
+        ]
+      },
+      {
+        "title": "Lieferung in Spanien",
+        "items": [
+          {
+            "icon": "assets/process/delivery.jpg",
+            "text": "Lieferung überall in Spanien — Madrid, Barcelona, Valencia, Málaga, Marbella, Kanarische Inseln."
+          },
+          {
+            "icon": "assets/cargo/furniture.jpg",
+            "text": "Etagenlieferung — erfahrene Teams für spanische Gebäude (enge Treppen, Altbauten)."
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Auspacken, Aufstellen, Möbelmontage. Verpackungsentsorgung inklusive."
+          }
+        ]
+      }
+    ]
+  },
+  "cargo": {
+    "title": "Was wir nach Spanien transportieren",
+    "subtitle": "Alle persönlichen Gegenstände mit klimaangepasster Verpackung für mediterrane Bedingungen",
+    "items": [
+      {
+        "icon": "assets/cargo/clothes.jpg",
+        "title": "Kleidung & Schuhe"
+      },
+      {
+        "icon": "assets/cargo/dishes.jpg",
+        "title": "Geschirr & Glas"
+      },
+      {
+        "icon": "assets/cargo/furniture.jpg",
+        "title": "Möbel"
+      },
+      {
+        "icon": "assets/cargo/appliances.jpg",
+        "title": "Haushaltsgeräte"
+      },
+      {
+        "icon": "assets/cargo/documents.jpg",
+        "title": "Dokumente"
+      },
+      {
+        "icon": "assets/cargo/music.jpg",
+        "title": "Musikinstrumente"
+      },
+      {
+        "icon": "assets/cargo/art.jpg",
+        "title": "Kunst & Gemälde"
+      },
+      {
+        "icon": "assets/cargo/collections.jpg",
+        "title": "Sammlungen"
+      },
+      {
+        "icon": "assets/cargo/books.jpg",
+        "title": "Bücher"
+      },
+      {
+        "icon": "assets/cargo/decor.jpg",
+        "title": "Dekoration"
+      }
+    ]
+  },
+  "services": {
+    "title": "Unsere Leistungen: Deutschland → Spanien",
+    "subtitle": "Umzug innerhalb der EU ohne Zollhindernisse — schnell, einfach und voll versichert",
+    "cards": [
+      {
+        "icon": "home",
+        "title": "EU Tür-zu-Tür Umzug",
+        "text": "Direktlieferung aus jeder deutschen Stadt in jede spanische Stadt. Kein Zoll, keine Abgaben.",
+        "link": "#"
+      },
+      {
+        "icon": "document",
+        "title": "Dokumentenbetreuung",
+        "text": "CMR, Inventarliste. Beratung zu Empadronamiento und NIE-Registrierung.",
+        "link": "#"
+      },
+      {
+        "icon": "box",
+        "title": "Klimaangepasste Verpackung",
+        "text": "Thermoschutz für Elektronik (DE: +5°C → ES: +35°C). Feuchtigkeitsschutz.",
+        "link": "#"
+      },
+      {
+        "icon": "shield",
+        "title": "Frachtversicherung",
+        "text": "Volle Deckung Tür zu Tür. Direkte Route — minimales Risiko.",
+        "link": "#"
+      },
+      {
+        "icon": "storage",
+        "title": "Lagerung",
+        "text": "Klimatisierte Lagerhäuser in Deutschland und Spanien.",
+        "link": "#"
+      },
+      {
+        "icon": "special",
+        "title": "Spezialversand",
+        "text": "Antiquitäten, Kunst, Wein. Klimakisten zum Schutz vor Hitze.",
+        "link": "#"
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Warum Intrelo für Ihren Umzug nach Spanien",
+    "subtitle": "Direkte EU-Routen — schnell, zollfrei und mit Erhaltungsgarantie",
+    "cards": [
+      {
+        "title": "Direktlieferung ohne Umladung",
+        "text": "Ein LKW von Ihrer Tür in Deutschland bis zur Tür in Spanien. Kein Zwischenlager."
+      },
+      {
+        "title": "5–7 Tage per LKW",
+        "text": "Über Frankreich direkt. Madrid, Barcelona, Costa del Sol — ohne Verzögerungen."
+      },
+      {
+        "title": "Kein Zoll innerhalb der EU",
+        "text": "Deutschland und Spanien sind EU-Mitglieder. Keine Abgaben, keine Deklarationen."
+      },
+      {
+        "title": "Klimaschutz",
+        "text": "Wir berücksichtigen Temperaturschwankungen. Thermoschutz für Elektronik und empfindliche Gegenstände."
+      },
+      {
+        "title": "Wir kennen Spanien",
+        "text": "Enge Altstadtgassen, Aufzuglose Häuser, Insellogistik (Kanaren, Balearen)."
+      },
+      {
+        "title": "GPS-Tracking in Echtzeit",
+        "text": "Sendungsverfolgung während der gesamten Route."
+      }
+    ]
+  },
+  "audience": {
+    "title": "Für wen wir Umzüge nach Spanien organisieren",
+    "subtitle": "Wir arbeiten mit Übersiedlern, Immobilienkäufern und Geschäftsleuten.",
+    "groups": [
+      {
+        "title": "Privatpersonen:",
+        "cards": [
+          {
+            "title": "Rentner & Familien",
+            "description": "Umzug in wärmeres Klima. Komplettes Haus, Möbel, Technik.",
+            "image": "assets/audience/family.jpg"
+          },
+          {
+            "title": "Digitale Nomaden",
+            "description": "Kleine Mengen, schnelle Lieferung.",
+            "image": "assets/audience/student.jpg"
+          },
+          {
+            "title": "Immobilienkäufer",
+            "description": "Einrichtung des neuen Hauses in Spanien.",
+            "image": "assets/audience/immigrant.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Firmenkunden:",
+        "cards": [
+          {
+            "title": "Relocation-Firmen",
+            "description": "Firmenkonditionen, SLA, EU-Rechnungen.",
+            "image": "assets/audience/relocation.jpg"
+          },
+          {
+            "title": "Firmenangestellte",
+            "description": "Umzug ins spanische Büro.",
+            "image": "assets/audience/employee.jpg"
+          },
+          {
+            "title": "Unternehmer",
+            "description": "Geschäftsverlagerung nach Spanien.",
+            "image": "assets/audience/diplomatic.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Spezialservices:",
+        "cards": [
+          {
+            "title": "Prominente",
+            "description": "Vertraulicher Umzug nach Marbella, Ibiza, Mallorca.",
+            "image": "assets/audience/vip.jpg"
+          },
+          {
+            "title": "Galerien & Sammler",
+            "description": "Klimaverpackung für heißes Küstenklima.",
+            "image": "assets/audience/collector.jpg"
+          },
+          {
+            "title": "Concierge-Services",
+            "description": "Maßgeschneidert, Insellieferung.",
+            "image": "assets/audience/concierge.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "packing": {
+    "title": "Verpackung für Ihren Umzug nach Spanien",
+    "subtitle": "Direkte EU-Route ohne Umladung. Schwerpunkt: Thermoschutz und Vibrationsschutz bei langer Fahrt.",
+    "cards": [
+      {
+        "title": "Weiche Verpackung",
+        "items": [
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Säurefreies Papier für empfindliche Gegenstände"
+          },
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Luftpolsterfolie für Glas und Zerbrechliches"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "PE-Schaum für Ecken und empfindliche Möbelelemente"
+          }
+        ]
+      },
+      {
+        "title": "Kartons & Kisten",
+        "items": [
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Standard-Wellpappkartons — Direktlieferung"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Kleiderkartons mit Kleiderstangen"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Sperrholzkisten für besonders wertvolle Gegenstände"
+          }
+        ]
+      },
+      {
+        "title": "Thermoschutz",
+        "items": [
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Wärmeisolierende Folie für Elektronik — Schutz vor +40°C im Süden"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "Belüftete Verpackung für Massivholzmöbel"
+          },
+          {
+            "icon": "assets/cargo/decor.jpg",
+            "text": "UV-Schutzhüllen für Bilder und Fotografien"
+          }
+        ]
+      },
+      {
+        "title": "Kleidung",
+        "items": [
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Stoffhüllen für Anzüge und empfindliche Kleidung"
+          },
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Vakuumbeutel für sperrige Winterkleidung"
+          },
+          {
+            "icon": "assets/cargo/clothes.jpg",
+            "text": "Einzelverpackung von Schuhen"
+          }
+        ]
+      },
+      {
+        "title": "Elektronik",
+        "items": [
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Antistatische Folie + Thermoschutz für Laptops"
+          },
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Originalkartons oder Spezialverpackung"
+          },
+          {
+            "icon": "assets/cargo/appliances.jpg",
+            "text": "Stoßdämpfer für lange Autoroute"
+          }
+        ]
+      },
+      {
+        "title": "Zerbrechliches",
+        "items": [
+          {
+            "icon": "assets/cargo/dishes.jpg",
+            "text": "Mehrschichtige Geschirrverpackung mit Trennern"
+          },
+          {
+            "icon": "assets/cargo/art.jpg",
+            "text": "Bilderkartons mit Vibrationsdämpfung"
+          },
+          {
+            "icon": "assets/cargo/collections.jpg",
+            "text": "Individuelle Schaumstoffeinlagen"
+          }
+        ]
+      }
+    ]
+  },
+  "transport": {
+    "title": "Transportarten: Deutschland → Spanien",
+    "subtitle": "Direkte EU-Routen. Straßentransport ist der Hauptweg. Seefracht für große Mengen und Inseln.",
+    "cards": [
+      {
+        "title": "Seefracht",
+        "items": [
+          {
+            "icon": "assets/3d-icons/shipping_20ft.png",
+            "text": "20-Fuß-Container — Hamburg → Barcelona/Valencia"
+          },
+          {
+            "icon": "assets/3d-icons/shipping_40ft.png",
+            "text": "40-Fuß-Container — ganzes Haus"
+          },
+          {
+            "icon": "assets/3d-icons/marine_lcl.png",
+            "text": "Sammelsee — Kanarische und Balearische Inseln"
+          }
+        ]
+      },
+      {
+        "title": "Straßentransport",
+        "items": [
+          {
+            "icon": "assets/3d-icons/auto_microbus.png",
+            "text": "Sprinter — Einzimmerwohnung, 5–7 Tage"
+          },
+          {
+            "icon": "assets/3d-icons/auto_eurotruck.png",
+            "text": "Euro-LKW — ganzes Haus, 5–7 Tage"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Sammeltransport — ab 1 m³, wöchentlich"
+          }
+        ]
+      },
+      {
+        "title": "Luftfracht",
+        "items": [
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Unbegleitetes Gepäck — 1–2 Tage"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Eilige Dokumentensendung"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Sammelluftfracht — ab 50 kg"
+          }
+        ]
+      },
+      {
+        "title": "Insellieferung",
+        "items": [
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "LKW + Fähre — Balearen (Mallorca, Ibiza)"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Seefracht — Kanarische Inseln (Teneriffa)"
+          },
+          {
+            "icon": "assets/3d-icons/placeholder.svg",
+            "text": "Luft + LKW — Eilzustellung auf Inseln"
+          }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Transportvergleich: Deutschland → Spanien",
+    "subtitle": "Innerhalb der EU — kein Zoll. Wählen Sie zwischen Geschwindigkeit (LKW) und Sparsamkeit (See).",
+    "features_labels": [
+      "Typisches Volumen",
+      "Laufzeit",
+      "Richtpreis *",
+      "Geeignet für",
+      "Hauptrisiken",
+      "Unsere Maßnahmen"
+    ],
+    "plans": [
+      {
+        "name": "LKW",
+        "icon": "truck",
+        "dark": false,
+        "values": [
+          "1–33 m³",
+          "5–7 Tage",
+          "ab ca. 350 €/m³",
+          "Wohnungsumzug",
+          "Vibrationen auf langer Route",
+          "Palettierung, Fixierung, Dämpfung"
+        ]
+      },
+      {
+        "name": "Seefracht",
+        "icon": "ship",
+        "dark": false,
+        "values": [
+          "5–60+ m³",
+          "14–21 Tage",
+          "ab ca. 180 €/m³",
+          "Große Mengen, Inseln",
+          "Hafenfeuchtigkeit",
+          "Feuchtigkeitsschutz"
+        ]
+      },
+      {
+        "name": "Luftfracht",
+        "icon": "plane",
+        "dark": true,
+        "values": [
+          "0,5–5 m³",
+          "1–2 Tage",
+          "ab ca. 800 €/m³",
+          "Eilsendungen",
+          "Größenbeschränkungen",
+          "Kompakte Verpackung"
+        ]
+      },
+      {
+        "name": "Inseln",
+        "icon": "globe",
+        "dark": false,
+        "values": [
+          "1–33 m³",
+          "7–25 Tage",
+          "ab ca. 400 €/m³",
+          "Kanaren, Balearen",
+          "Fährumladung",
+          "Verstärkte + Seeschutz-Verpackung"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen zum Umzug nach Spanien",
+    "subtitle": "Alles über den Umzug innerhalb der EU",
+    "items": [
+      {
+        "q": "Brauche ich eine Zollabfertigung?",
+        "a": "Nein. Beide Länder sind EU-Mitglieder — kein Zoll nötig. Freier Warenverkehr. Nur Transportdokumente (CMR)."
+      },
+      {
+        "q": "Wie lange dauert der Umzug?",
+        "a": "Per LKW über Frankreich — 5–7 Tage. Seefracht — 14–21 Tage. Luftfracht — 1–2 Tage. Inseln: zusätzlich 3–7 Tage."
+      },
+      {
+        "q": "Wie schützen Sie vor Hitze?",
+        "a": "Thermoschutzverpackung für Elektronik. LKW mit Belüftung. Transport unter Berücksichtigung der Temperatur."
+      },
+      {
+        "q": "Liefern Sie auf die Kanarischen Inseln?",
+        "a": "Ja. LKW bis zum Hafen auf dem Festland, dann per See. Gesamtdauer: 10–25 Tage."
+      },
+      {
+        "q": "Was kostet der Umzug?",
+        "a": "LKW: ab ca. 350 €/m³. Einzimmerwohnung (~10 m³) — ab 3.500 €. Seefracht günstiger. Kostenlose Kalkulation."
+      },
+      {
+        "q": "Was ist mit der Abmeldung?",
+        "a": "Bei dauerhaftem Umzug nach Spanien müssen Sie sich abmelden. Wir beraten zum Ablauf."
+      },
+      {
+        "q": "Liefern Sie nach Ibiza und Mallorca?",
+        "a": "Ja. Balearen — LKW + Fähre ab Barcelona/Valencia. 7–14 Tage. Tür-zu-Tür auf der Insel."
+      },
+      {
+        "q": "Gibt es Steuern beim Umzug?",
+        "a": "Persönliche Gegenstände innerhalb der EU sind abgabenfrei. NIE-Registrierung in Spanien ggf. nötig."
+      },
+      {
+        "q": "Wie verfolge ich meine Sendung?",
+        "a": "GPS-Tracking auf der gesamten Route. Benachrichtigungen bei jedem Schritt. 24/7 WhatsApp."
+      },
+      {
+        "q": "Transportieren Sie Autos?",
+        "a": "Wir spezialisieren uns auf persönliche Gegenstände. Für Autotransport empfehlen wir Partner."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit für Ihren\nUmzug nach Spanien?",
+    "subtitle": "Kostenlose Kalkulation. Direktlieferung innerhalb der EU in 5–7 Tagen.",
+    "benefits": [
+      "Kostenlose Kalkulation in 30 Min.",
+      "Direktlieferung ohne Zoll",
+      "100% Frachtversicherung",
+      "Insellieferung möglich"
+    ],
+    "form_title": "Kostenlose Kalkulation",
+    "form_route_placeholder": "München → Barcelona"
+  },
+  "footer": {
+    "phone": "+7 (495) 480-48-48",
+    "email": "order@perevozki-veshey.ru",
+    "address": "Moskau, Begovaya Str. 3",
+    "copyright": "InterCargo. Alle Rechte vorbehalten."
+  }
+}

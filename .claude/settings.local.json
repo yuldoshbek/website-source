@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nRefactor: Replace content-article with island architecture layout\n\nReplaced narrow 800px content-article block with 4-island architecture\n\\(1200px container\\): intro, roles, process, timeline. Full-width islands,\nlist-based roles and steps, director quote with speech bubble, responsive\nbreakpoints at 992px and 576px.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
