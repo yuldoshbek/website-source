@@ -4504,6 +4504,20 @@ p {
     border: none;
 }
 
+/* Narrow Island (Quote block — 750-800px) */
+.content-island--narrow {
+    max-width: 800px;
+}
+
+.content-island--narrow .expert-profile-card {
+    margin-top: 0;
+}
+
+.content-island--narrow .expert-card__meta {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
 /* Scoped Typography */
 .content-article h2 {
     font-size: 40px !important;
@@ -4831,5 +4845,18 @@ p {
 
     .content-role__body strong {
         font-size: 18px !important;
+    }
+
+    .content-island--narrow {
+        max-width: 100%;
+    }
+
+    .content-island--narrow .expert-card__meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content-island--narrow .expert-card__avatar-placeholder {
+        order: -1;
     }
 }
