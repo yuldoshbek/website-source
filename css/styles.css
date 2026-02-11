@@ -5074,29 +5074,82 @@ p {
         font-size: 14px;
     }
 
-    /* TABLE — main mobile fix */
+    /* TABLE — card layout on mobile */
     .content-table-wrap {
-        margin: 24px -20px 0;
+        margin: 24px 0 0;
         border-radius: 0;
-        border-left: none;
-        border-right: none;
+        border: none;
+        overflow-x: visible;
     }
 
     .content-article table {
         table-layout: auto;
-        font-size: 13px;
-        min-width: 600px;
+        min-width: 0;
+        border-collapse: collapse !important;
     }
 
-    .content-article th {
-        padding: 12px 14px !important;
-        font-size: 13px !important;
-        white-space: nowrap;
+    .content-article thead {
+        display: none !important;
+    }
+
+    .content-article tbody tr {
+        display: block;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 12px;
+        margin-bottom: 12px;
+        padding: 16px;
+    }
+
+    .content-article tbody tr:nth-child(even) {
+        background: #FFFFFF;
+    }
+
+    .content-article tbody tr:hover td {
+        background: transparent !important;
     }
 
     .content-article td {
-        padding: 12px 14px !important;
-        font-size: 13px !important;
+        display: flex !important;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 6px 0 !important;
+        border-bottom: none !important;
+        background: transparent !important;
+        font-size: 14px !important;
+        gap: 12px;
+    }
+
+    .content-article td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #888;
+        min-width: 70px;
+        flex-shrink: 0;
+    }
+
+    .content-article td:first-child {
+        font-weight: 700 !important;
+        font-size: 15px !important;
+        color: #1C1C1E !important;
+        padding-bottom: 8px !important;
+        border-bottom: 1px solid #F0F0F0 !important;
+        margin-bottom: 4px;
+    }
+
+    .content-article td:first-child::before {
+        display: none;
+    }
+
+    .content-article tbody tr:nth-child(even) td {
+        background: transparent !important;
+    }
+
+    .content-article tbody tr:nth-child(odd) td {
+        background: transparent !important;
     }
 
     /* Narrow island (quote) */
@@ -5210,7 +5263,20 @@ p {
     }
 
     .content-table-wrap {
-        margin: 20px -16px 0;
+        margin: 20px 0 0;
+    }
+
+    .content-article tbody tr {
+        padding: 14px;
+        margin-bottom: 10px;
+    }
+
+    .content-article td {
+        font-size: 13px !important;
+    }
+
+    .content-article td:first-child {
+        font-size: 14px !important;
     }
 
     .content-island--narrow {
