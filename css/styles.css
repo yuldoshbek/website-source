@@ -4547,23 +4547,7 @@ p {
     padding-bottom: 12px;
 }
 
-/* Speech tail — bottom-left arrow on island */
-.content-island--narrow {
-    position: relative;
-}
-
-.content-island--narrow::after {
-    content: '';
-    position: absolute;
-    bottom: -9px;
-    left: 48px;
-    width: 16px;
-    height: 16px;
-    background: #F5F5F5;
-    border-right: 1px solid #DADADA;
-    border-bottom: 1px solid #DADADA;
-    transform: rotate(45deg);
-}
+/* Speech tail — disabled */
 
 /* Author row — [avatar] [name + role] — compact, no divider */
 .content-island--narrow .expert-card__meta {
