@@ -4506,18 +4506,19 @@ p {
 
 /* =============================================
    NARROW ISLAND — Expert Quote Cloud
-   ONE cloud: quote + author inside
+   ONE cloud = island itself
+   Quote + Author inside, no nested cards
    ============================================= */
 .content-island--narrow {
     max-width: 800px;
-    padding: 40px 40px 36px;
+    padding: 32px 36px 28px;
     background: #FFFFFF;
-    margin-top: 48px;
-    border-radius: 24px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    margin-top: 56px;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
-/* Quote text — NO separate box, just text inside the cloud */
+/* Quote text — just text, no separate box */
 .content-island--narrow .expert-card__quote {
     font-size: 17px;
     line-height: 1.65;
@@ -4525,38 +4526,26 @@ p {
     font-weight: 600;
     color: #1C1C1E;
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px;
     background: none;
     border: none;
     box-shadow: none;
     border-radius: 0;
-    position: relative;
-    padding-bottom: 24px;
 }
 
-/* Speech tail — decorative separator between quote and author */
+/* No speech tail divider — clean transition to author */
 .content-island--narrow .expert-card__quote::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 24px;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #E0E0E0;
+    display: none;
 }
 
-/* Author row — inside the same cloud */
+/* Author row — [avatar] [name + role] — compact, no divider */
 .content-island--narrow .expert-card__meta {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 14px;
-    margin-top: 0;
-    padding-top: 18px;
-    padding-left: 0;
-    border-top: 1px solid #EFEFEF;
+    padding: 0;
+    border: none;
 }
 
 .content-island--narrow .expert-card__info {
@@ -4571,7 +4560,6 @@ p {
     border-radius: 50%;
     background: #E5E5E5;
     flex-shrink: 0;
-    order: 1;
 }
 
 .content-island--narrow .expert-card__name {
@@ -4875,19 +4863,23 @@ p {
     border-bottom: none !important;
 }
 
-/* Timeline text under table */
-.content-island .content-table-wrap ~ p {
-    font-size: 16px !important;
-    line-height: 1.6 !important;
-    margin-top: 28px !important;
-    margin-bottom: 0 !important;
-    color: #444 !important;
-    max-width: 900px;
-    text-align: left !important;
+/* Free Block — no cloud, editorial text */
+.content-block--free {
+    max-width: 1200px;
+    margin: 36px auto 0;
+    padding: 0 56px;
 }
 
-.content-island .content-table-wrap ~ p + p {
-    margin-top: 16px !important;
+.content-block--free p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    margin: 0 0 16px;
+    max-width: 900px;
+}
+
+.content-block--free p:last-child {
+    margin-bottom: 0;
 }
 
 /* Responsive Overrides */
@@ -4896,6 +4888,12 @@ p {
         margin-left: 20px;
         margin-right: 20px;
         max-width: calc(100% - 40px);
+    }
+
+    .content-block--free {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0 36px;
     }
 }
 
@@ -4937,20 +4935,24 @@ p {
         font-size: 18px !important;
     }
 
+    .content-block--free {
+        padding: 0 24px;
+        margin-top: 28px;
+    }
+
     .content-island--narrow {
         max-width: 100%;
         padding: 24px;
+        margin-top: 40px;
     }
 
     .content-island--narrow .expert-card__quote {
         font-size: 15px;
-        padding-bottom: 20px;
+        margin-bottom: 16px;
     }
 
     .content-island--narrow .expert-card__meta {
         flex-direction: row;
-        justify-content: flex-start;
-        padding-left: 0;
         gap: 12px;
     }
 
