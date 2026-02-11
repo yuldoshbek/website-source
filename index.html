@@ -236,20 +236,22 @@
 
         <!-- ========== CONTENT ARTICLE (International Move) ========== -->
         <article class="content-article" id="article-moving">
-            <!-- ОСТРОВОК 1: Что из себя представляет -->
-            <section class="content-island">
-                <h2>Что из себя представляет международный переезд</h2>
-                <p>Международный переезд всегда состоит из нескольких юридически и операционно самостоятельных
-                    этапов: экспорт, международная перевозка и импорт. Каждый этап регулируется собственными
-                    правилами, сроками и требованиями со стороны государства.</p>
-                <p>Единое управление процессом (door-to-door) не означает упрощения таможенных требований или
-                    переноса ответственности. На практике большинство проблем возникает не в процессе перевозки, а
-                    при проверке соответствия заявленного статуса переезда фактическому содержимому груза и
-                    представленным документам.</p>
+            <!-- БЛОК 1 — INTRO (Island) -->
+            <section class="content-island" id="intro-section">
+                <h2 id="intro-header">Что из себя представляет международный переезд</h2>
+                <div id="intro-text">
+                    <p>Международный переезд всегда состоит из нескольких юридически и операционно самостоятельных
+                        этапов: экспорт, международная перевозка и импорт. Каждый этап регулируется собственными
+                        правилами, сроками и требованиями со стороны государства.</p>
+                    <p>Единое управление процессом (door-to-door) не означает упрощения таможенных требований или
+                        переноса ответственности. На практике большинство проблем возникает не в процессе перевозки, а
+                        при проверке соответствия заявленного статуса переезда фактическому содержимому груза и
+                        представленным документам.</p>
+                </div>
             </section>
 
-            <!-- ОСТРОВОК 2: Роли и зоны ответственности -->
-            <section class="content-island">
+            <!-- БЛОК 2 — CALLOUT (узкий Island) -->
+            <section class="content-island" id="callout-attention">
                 <h2>Роли и зоны ответственности</h2>
 
                 <ul class="content-roles">
@@ -280,7 +282,7 @@
                     </li>
                 </ul>
 
-                <blockquote class="highlight">
+                <blockquote class="highlight" id="callout-text">
                     <p>На практике таможенные задержки почти всегда связаны с ошибками со стороны shipper: неполной
                         или абстрактной описью, отсутствием подтверждений владения или несоответствием заявленного
                         статуса фактическому содержимому груза.</p>
@@ -301,10 +303,10 @@
                 </div>
             </section>
 
-            <!-- ОСТРОВОК 3: Как проходит переезд -->
-            <section class="content-island">
-                <h2>Как проходит международный переезд: пошаговый процесс</h2>
-                <p>Международный переезд в формате <em>door-to-door</em> — это последовательность строго связанных
+            <!-- БЛОК 3 — HOW IT WORKS (Island) -->
+            <section class="content-island" id="how-process">
+                <h2 id="how-process-header">Как проходит международный переезд: пошаговый процесс</h2>
+                <p id="how-process-text">Международный переезд в формате <em>door-to-door</em> — это последовательность строго связанных
                     этапов. Каждый шаг зависит от предыдущего и задействует разные стороны.</p>
 
                 <ol class="content-process-steps">
@@ -371,10 +373,10 @@
             <!-- ====== TIMELINE ZONE: белый фон, без лишних слоёв ====== -->
             <div class="timeline-zone">
 
-                <!-- Таймлайн: H2 + таблица (просто на белом фоне) -->
-                <div class="content-block content-block--free">
-                    <h2>Типовой таймлайн международного переезда</h2>
-                    <div class="content-table-wrap">
+                <!-- БЛОК 4 — TIMELINE (Free) -->
+                <div class="content-block content-block--free" id="timeline-section">
+                    <h2 id="timeline-header">Типовой таймлайн международного переезда</h2>
+                    <div class="content-table-wrap" id="timeline-table">
                         <table>
                             <thead>
                                 <tr>
@@ -433,7 +435,7 @@
                 </div>
 
                 <!-- Текст под таблицей (на белом фоне, без облака) -->
-                <div class="content-block content-block--free">
+                <div class="content-block content-block--free" id="timeline-text">
                     <p>Международный переезд — это последовательный процесс с контрольными точками. Корректная опись
                         на старте определяет сроки на финише. Каждый этап контролируется менеджером проекта, который
                         информирует клиента о статусе груза в реальном времени.</p>
@@ -445,18 +447,18 @@
                         параметры чаще всего влияют на длительность процедур.</p>
                 </div>
 
-                <!-- Цитирование: серое облачко на белом фоне -->
-                <section class="content-island content-island--narrow">
-                    <div class="expert-card__quote">
+                <!-- БЛОК 5 — QUOTE (Island узкий) -->
+                <section class="content-island content-island--narrow" id="author-quote">
+                    <div class="expert-card__quote" id="quote-text">
                         «Международный переезд — это не просто перевозка вещей. Это проект, в котором юридическая
                         подготовка определяет 80% успеха. Когда документы корректны, логистика работает как механизм.»
                     </div>
                     <div class="expert-card__meta">
-                        <div class="expert-card__avatar-placeholder"></div>
                         <div class="expert-card__info">
-                            <div class="expert-card__name">Кирилл Ратунин</div>
-                            <div class="expert-card__position">Генеральный директор Intrelo</div>
+                            <div class="expert-card__name" id="quote-author-name">Кирилл Ратунин</div>
+                            <div class="expert-card__position" id="quote-author-position">Генеральный директор Intrelo</div>
                         </div>
+                        <div class="expert-card__avatar-placeholder" id="quote-author-avatar"></div>
                     </div>
                 </section>
 

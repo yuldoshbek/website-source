@@ -4501,7 +4501,7 @@ p {
     background: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-    border: none;
+    border: 1px solid #DADADA;
 }
 
 /* =============================================
@@ -4523,10 +4523,11 @@ p {
 .content-island--narrow {
     max-width: 800px;
     padding: 32px 36px 28px;
-    background: #F5F7FA;
+    background: #F5F5F5;
     margin-top: 56px;
     border-radius: 20px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    border: 1px solid #DADADA;
 }
 
 /* Quote text — just text inside the cloud */
@@ -4546,9 +4547,22 @@ p {
     padding-bottom: 12px;
 }
 
-/* Speech tail hidden — Kirill approved citation without visible arrow */
-.content-island--narrow .expert-card__quote::after {
-    display: none;
+/* Speech tail — bottom-left arrow on island */
+.content-island--narrow {
+    position: relative;
+}
+
+.content-island--narrow::after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 48px;
+    width: 16px;
+    height: 16px;
+    background: #F5F5F5;
+    border-right: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+    transform: rotate(45deg);
 }
 
 /* Author row — [avatar] [name + role] — compact, no divider */
