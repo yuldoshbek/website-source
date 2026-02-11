@@ -4490,29 +4490,27 @@ p {
 
 .content-article {
     padding: 80px 0;
-    background: #F5F7FA;
+    background: #FFFFFF;
 }
 
-/* Island Structure */
+/* Island Structure — wide: no cloud, just layout container on white bg */
 .content-island {
     max-width: 1200px;
     margin: 0 auto 32px;
-    background: #FFFFFF;
-    border-radius: 24px;
     padding: 48px 56px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
     border: none;
 }
 
 /* =============================================
-   NARROW ISLAND — Expert Quote Cloud
-   ONE cloud = island itself
-   Quote + Author inside, no nested cards
+   NARROW ISLAND — the ONLY cloud (gray on white)
    ============================================= */
 .content-island--narrow {
     max-width: 800px;
     padding: 32px 36px 28px;
-    background: #FFFFFF;
+    background: #F5F7FA;
     margin-top: 56px;
     border-radius: 20px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
@@ -4535,18 +4533,9 @@ p {
     padding-bottom: 12px;
 }
 
-/* Speech tail — bottom-left arrow pointing to author */
+/* Speech tail hidden — Kirill approved citation without visible arrow */
 .content-island--narrow .expert-card__quote::after {
-    content: "";
-    position: absolute;
-    bottom: -6px;
-    left: 28px;
-    width: 14px;
-    height: 14px;
-    background: #FFFFFF;
-    transform: rotate(45deg);
-    border-radius: 2px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.03);
+    display: none;
 }
 
 /* Author row — [avatar] [name + role] — compact, no divider */
@@ -4911,7 +4900,6 @@ p {
 @media (max-width: 768px) {
     .content-island {
         padding: 32px 24px;
-        border-radius: 16px;
     }
 
     .content-article h2 {
