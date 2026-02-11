@@ -4973,56 +4973,147 @@ p {
 }
 
 @media (max-width: 768px) {
-    .content-island {
-        padding: 32px 24px;
+
+    /* Content Article — reduce top padding */
+    .content-article {
+        padding: 48px 0 0;
     }
 
+    /* Islands — compact on mobile */
+    .content-island {
+        padding: 28px 20px;
+        margin: 0 16px 24px;
+        max-width: calc(100% - 32px);
+        border-radius: 14px;
+    }
+
+    /* Typography */
     .content-article h2 {
-        font-size: 28px !important;
+        font-size: 24px !important;
+        margin-bottom: 24px !important;
     }
 
     .content-article h3 {
-        font-size: 22px !important;
+        font-size: 20px !important;
     }
 
     .content-article p,
     .content-article blockquote,
     ul.check-list li {
-        font-size: 16px !important;
+        font-size: 15px !important;
+        line-height: 1.6 !important;
     }
 
+    /* Roles list */
     .content-roles li {
-        gap: 16px !important;
+        gap: 12px !important;
+    }
+
+    .content-role__check {
+        width: 28px !important;
+        height: 28px !important;
+        font-size: 14px !important;
     }
 
     .content-role__icon {
-        width: 40px !important;
-        height: 40px !important;
+        width: 36px !important;
+        height: 36px !important;
     }
 
     .content-role__icon svg {
-        width: 20px !important;
-        height: 20px !important;
+        width: 18px !important;
+        height: 18px !important;
     }
 
     .content-role__body strong {
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
 
+    .content-role__desc {
+        font-size: 14px !important;
+    }
+
+    /* Blockquote */
+    .content-article blockquote {
+        padding: 16px 20px !important;
+        margin: 24px 0 !important;
+        font-size: 15px !important;
+    }
+
+    /* Process steps */
+    .content-process-steps li {
+        padding: 16px 0 !important;
+    }
+
+    .content-process-steps li::before {
+        width: 28px !important;
+        height: 28px !important;
+        font-size: 14px !important;
+    }
+
+    .content-step__body strong {
+        font-size: 16px !important;
+    }
+
+    .content-step__desc {
+        font-size: 14px !important;
+    }
+
+    /* Timeline zone — compact */
+    .timeline-zone {
+        padding: 32px 0 48px;
+    }
+
+    /* Free blocks */
     .content-block--free {
-        padding: 0 24px;
-        margin-top: 28px;
+        padding: 0 20px;
+        margin-top: 24px;
     }
 
+    .content-block--free p {
+        font-size: 14px;
+    }
+
+    /* TABLE — main mobile fix */
+    .content-table-wrap {
+        margin: 24px -20px 0;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+
+    .content-article table {
+        table-layout: auto;
+        font-size: 13px;
+        min-width: 600px;
+    }
+
+    .content-article th {
+        padding: 12px 14px !important;
+        font-size: 13px !important;
+        white-space: nowrap;
+    }
+
+    .content-article td {
+        padding: 12px 14px !important;
+        font-size: 13px !important;
+    }
+
+    /* Narrow island (quote) */
     .content-island--narrow {
-        max-width: 100%;
-        padding: 24px;
-        margin-top: 40px;
+        max-width: calc(100% - 32px);
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 24px 20px 20px;
+        margin-top: 36px;
+        border-radius: 14px;
     }
 
     .content-island--narrow .expert-card__quote {
         font-size: 15px;
+        line-height: 1.55;
         margin-bottom: 16px;
+        padding-bottom: 8px;
     }
 
     .content-island--narrow .expert-card__meta {
@@ -5035,16 +5126,106 @@ p {
         height: 40px;
     }
 
+    .content-island--narrow .expert-card__name {
+        font-size: 14px;
+    }
+
+    .content-island--narrow .expert-card__position {
+        font-size: 12px;
+    }
+
+    /* Insight cards */
     .insights-grid {
         flex-direction: column;
-        align-items: center;
-        gap: 16px;
-        padding: 0 24px;
-        margin-top: 40px;
+        align-items: stretch;
+        gap: 14px;
+        padding: 0 16px;
+        margin-top: 32px;
     }
 
     .insight-card {
         max-width: 100%;
         width: 100%;
+        padding: 24px 20px;
+        border-radius: 12px;
+        flex-direction: row;
+        text-align: left;
+        gap: 16px;
+    }
+
+    .insight-card__icon {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        border-radius: 12px;
+        margin-bottom: 0;
+    }
+
+    .insight-card__icon svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .insight-card__text {
+        font-size: 14px;
+        max-width: none;
+    }
+
+    /* Expert profile card inside island 2 */
+    .expert-profile-card {
+        padding: 20px !important;
+        border-radius: 12px !important;
+    }
+}
+
+/* ===== SMALL PHONES (480px) ===== */
+@media (max-width: 480px) {
+    .content-article {
+        padding: 32px 0 0;
+    }
+
+    .content-island {
+        padding: 24px 16px;
+        margin: 0 12px 20px;
+        max-width: calc(100% - 24px);
+        border-radius: 12px;
+    }
+
+    .content-article h2 {
+        font-size: 21px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .content-article h3 {
+        font-size: 18px !important;
+    }
+
+    .timeline-zone {
+        padding: 24px 0 36px;
+    }
+
+    .content-block--free {
+        padding: 0 16px;
+        margin-top: 20px;
+    }
+
+    .content-table-wrap {
+        margin: 20px -16px 0;
+    }
+
+    .content-island--narrow {
+        max-width: calc(100% - 24px);
+        margin-left: 12px;
+        margin-right: 12px;
+        padding: 20px 16px;
+        border-radius: 12px;
+    }
+
+    .insights-grid {
+        padding: 0 12px;
+    }
+
+    .insight-card {
+        padding: 20px 16px;
     }
 }
