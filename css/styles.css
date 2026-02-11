@@ -4508,42 +4508,76 @@ p {
 .content-island--narrow {
     max-width: 800px;
     padding: 32px;
+    background: #F5F7FA;
+    margin-top: 48px;
 }
 
 /* Bubble (quote) — directly inside narrow island */
 .content-island--narrow .expert-card__quote {
-    padding: 20px 24px;
-    border-radius: 12px;
+    background: #FFFFFF;
+    padding: 24px 28px;
+    border-radius: 16px;
     max-width: 100%;
     font-size: 16px;
-    line-height: 1.55;
+    line-height: 1.6;
+    font-style: normal;
+    font-weight: 600;
+    color: #1C1C1E;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid #EAEAEA;
 }
 
-/* Author block */
+/* Arrow for narrow island bubble */
+.content-island--narrow .expert-card__quote::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.04);
+    border-right: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+/* Author block — info LEFT, avatar RIGHT */
 .content-island--narrow .expert-card__meta {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    gap: 12px;
-    margin-top: 16px;
-    padding-left: 0;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 24px;
+    padding: 0;
+}
+
+.content-island--narrow .expert-card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
 .content-island--narrow .expert-card__avatar-placeholder {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     background: #E5E5E5;
+    flex-shrink: 0;
 }
 
 .content-island--narrow .expert-card__name {
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #1C1C1E;
 }
 
 .content-island--narrow .expert-card__position {
     font-size: 14px;
     color: #777;
+    line-height: 1.3;
 }
 
 /* Scoped Typography */
@@ -4816,6 +4850,7 @@ p {
     border-bottom: 1px solid #E5E5E5 !important;
     color: #1C1C1E !important;
     background: #FFFFFF !important;
+    vertical-align: top;
 }
 
 .content-article tbody tr:nth-child(even) td {
@@ -4906,7 +4941,9 @@ p {
     }
 
     .content-island--narrow .expert-card__meta {
-        flex-direction: column-reverse;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
     }
 }
