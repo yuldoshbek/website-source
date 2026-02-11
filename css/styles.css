@@ -4505,15 +4505,28 @@ p {
 }
 
 /* =============================================
-   NARROW ISLAND — citation cloud (white on gray page)
+   TIMELINE ZONE — white bg for table + citation
+   ============================================= */
+.timeline-zone {
+    background: #FFFFFF;
+    padding: 48px 0 80px;
+}
+
+.timeline-zone .content-table-wrap {
+    border: none;
+    border-radius: 0;
+}
+
+/* =============================================
+   NARROW ISLAND — gray citation cloud on white bg
    ============================================= */
 .content-island--narrow {
     max-width: 800px;
     padding: 32px 36px 28px;
-    background: #FFFFFF;
+    background: #F5F7FA;
     margin-top: 56px;
     border-radius: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
 /* Quote text — just text inside the cloud */
