@@ -4490,30 +4490,30 @@ p {
 
 .content-article {
     padding: 80px 0;
-    background: #FFFFFF;
+    background: #F5F7FA;
 }
 
-/* Island Structure — wide: no cloud, just layout container on white bg */
+/* Island Structure — white cloud on gray page */
 .content-island {
     max-width: 1200px;
     margin: 0 auto 32px;
     padding: 48px 56px;
-    background: none;
-    border-radius: 0;
-    box-shadow: none;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
     border: none;
 }
 
 /* =============================================
-   NARROW ISLAND — the ONLY cloud (gray on white)
+   NARROW ISLAND — citation cloud (white on gray page)
    ============================================= */
 .content-island--narrow {
     max-width: 800px;
     padding: 32px 36px 28px;
-    background: #F5F7FA;
+    background: #FFFFFF;
     margin-top: 56px;
     border-radius: 20px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 /* Quote text — just text inside the cloud */
@@ -4868,6 +4868,10 @@ p {
     max-width: 1200px;
     margin: 36px auto 0;
     padding: 0 56px;
+}
+
+.content-block--free .content-table-wrap {
+    margin-top: 0;
 }
 
 .content-block--free p {
